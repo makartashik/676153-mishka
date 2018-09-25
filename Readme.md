@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Наталья Макарова](https://up.htmlacademy.ru/adaptive/15/user/676153).
-* Наставник: `Неизвестно`.
+* Наставник: [Денис Байдаров] (https://up.htmlacademy.ru/htmlcss/21/user/7956).
 
 ---
 
