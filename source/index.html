@@ -103,92 +103,92 @@
           <li class="advantages__item advantages__item--gift">
             <h3 class="advantages__item-title">Поставляется в подарочной упаковке</h3>
           </li>
+        </ul>
+      </section>
+
+      <section class="reviews">
+        <h2 class="reviews__title section-title">Отзывы</h2>
+        <div class="reviews__list">
+          <blockquote class="reviews__item">
+            <p class="reviews__text">
+              Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+            </p>
+            <p class="reviews__author-info">
+              <cite class="reviews__author-name">Анастасия Красильникова</cite>
+              <span class="reviews__author-account">@misssssiskras</span>
+            </p>
+          </blockquote>
+        </div>
+        <div class="reviews__toggles">
+          <button class="reviews__prev" type="button">Предыдущий</button>
+          <button class="reviews__next" type="button">Следующий</button>
+        </div>
+        <a class="reviews__write button" href="#">Написать</a>
+      </section>
+
+      <section class="contacts">
+        <h2 class="contacts__title section-title section-title--font-smaller">Контакты</h2>
+        <table class="contacts__info">
+          <tr class="contacts__item">
+            <td class="contacts__type">e-mail:</td>
+            <td class="contacts__value">info@mimimishkashop.ru</td>
+          </tr>
+          <tr class="contacts__item">
+            <td class="contacts__type">адрес:</td>
+            <td class="contacts__value">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</td>
+          </tr>
+        </table>
+        <div class="contacts__map">
+          <img class="contacts__map-image" src="#" width="320" height="457" alt="Карта">
+        </div>
+        <a class="contacts__write button" href="#">Напишите нам</a>
+      </section>
+
+     </main>
+
+     <footer class="page-footer">
+       <div class="page-footer__social social">
+         <ul class="social__list">
+           <li class="social__item">
+             <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+           </li>
+           <li class="social__item">
+             <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+           </li>
+           <li class="social__item">
+             <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy_ru">Мы в Твиттере</a>
+           </li>
          </ul>
-        </section>
+       </div>
+       <div class="page-footer__copyright copyright">
+         <b class="copyright__text">Разработано</b>
+         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+       </div>
+    </footer>
 
-        <section class="reviews">
-          <h2 class="reviews__title section-title">Отзывы</h2>
-          <div class="reviews__list">
-            <blockquote class="reviews__item">
-              <p class="reviews__text">
-                Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
-              </p>
-              <p class="reviews__author-info">
-                <cite class="reviews__author-name">Анастасия Красильникова</cite>
-                <span class="reviews__author-account">@misssssiskras</span>
-              </p>
-            </blockquote>
-          </div>
-          <div class="reviews__toggles">
-            <button class="reviews__prev" type="button">Предыдущий</button>
-            <button class="reviews__next" type="button">Следующий</button>
-          </div>
-          <a class="reviews__write button" href="#">Написать</a>
-        </section>
-
-        <section class="contacts">
-          <h2 class="contacts__title section-title section-title--font-smaller">Контакты</h2>
-          <table class="contacts__info">
-            <tr class="contacts__item">
-              <td class="contacts__type">e-mail:</td>
-              <td class="contacts__value">info@mimimishkashop.ru</td>
-            </tr>
-            <tr class="contacts__item">
-              <td class="contacts__type">адрес:</td>
-              <td class="contacts__value">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</td>
-            </tr>
-          </table>
-          <div class="contacts__map">
-            <img class="contacts__map-image" src="#" width="320" height="457" alt="Карта">
-          </div>
-          <a class="contacts__write button" href="#">Напишите нам</a>
-        </section>
-
-       </main>
-
-       <footer class="page-footer">
-        <div class="page-footer__social social">
-          <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+    <section class="modal">
+      <h2 class="modal__title">Добавить в корзину</h2>
+      <form class="modal__form add-form" action="https://echo.htmlacademy.ru/" method="get">
+        <fieldset class="add-form__fieldset">
+          <legend class="add-form__legend">Выберите размер:</legend>
+          <ul class="add-form__list">
+            <li class="add-form__option">
+              <input class="add-form__input visually-hidden" type="radio" id="size-first" name="size" value="S" checked>
+              <label class="add-form__input-label" for="size-first">S</label>
             </li>
-            <li class="social__item">
-              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+            <li class="add-form__option">
+              <input class="add-form__input visually-hidden" type="radio" id="size-second" name="size" value="M">
+              <label class="add-form__input-label" for="size-second">M</label>
             </li>
-            <li class="social__item">
-              <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy_ru">Мы в Твиттере</a>
+            <li class="add-form__option">
+              <input class="add-form__input visually-hidden" type="radio" id="size-third" name="size" value="L">
+              <label class="add-form__input-label" for="size-third">L</label>
             </li>
           </ul>
-        </div>
-        <div class="page-footer__copyright copyright">
-          <b class="copyright__text">Разработано</b>
-          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        </div>
-      </footer>
-
-      <section class="modal">
-        <h2 class="modal__title">Добавить в корзину</h2>
-        <form class="modal__form add-form" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="add-form__fieldset">
-            <legend class="add-form__legend">Выберите размер:</legend>
-            <ul class="add-form__list">
-              <li class="add-form__option">
-                <input class="add-form__input visually-hidden" type="radio" id="size-first" name="size" value="S" checked>
-                <label class="add-form__input-label" for="size-first">S</label>
-              </li>
-              <li class="add-form__option">
-                <input class="add-form__input visually-hidden" type="radio" id="size-second" name="size" value="M">
-                <label class="add-form__input-label" for="size-second">M</label>
-              </li>
-              <li class="add-form__option">
-                <input class="add-form__input visually-hidden" type="radio" id="size-third" name="size" value="L">
-                <label class="add-form__input-label" for="size-third">L</label>
-              </li>
-            </ul>
-          </fieldset>
-          <button class="add-form__button button button--green" type="submit">Добавить</button>
-        </form>
-      </section>
+        </fieldset>
+        <button class="add-form__button button button--green" type="submit">Добавить</button>
+      </form>
+    </section>
 
   </body>
 </html>
