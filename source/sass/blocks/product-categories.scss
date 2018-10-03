@@ -1,0 +1,26 @@
+.product-categories {
+  @include ul-standard;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.product-categories__link {
+  display: block;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 26px;
+  color: #ffffff;
+
+  &--interior {
+    background-color: #63d1bb;
+  }
+
+  &--toy {
+    background-color: #56c3b2;
+  }
+}
+
+.product-categories__title {
+  width: 130px;
+}
