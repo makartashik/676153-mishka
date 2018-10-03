@@ -1,0 +1,16 @@
+.page-header {
+  outline: 1px solid blue;
+}
+
+.page-header__logo-image {
+  width: 86px;
+  height: 35px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,8 @@
+.site-list {
+  @include ul-standard;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $title-color;
+}
