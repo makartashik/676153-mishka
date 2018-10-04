@@ -3,6 +3,7 @@
 @import "mixins.scss";
 @import "variables.scss";
 @import "global.scss";
+@import "blocks/container.scss";
 @import "blocks/page-header.scss";
 @import "blocks/site-list.scss";
 @import "blocks/user-list.scss";
@@ -10,3 +11,5 @@
 @import "blocks/page-banner.scss";
 @import "blocks/product-categories.scss";
 @import "blocks/categories.scss";
+@import "blocks/popular-product.scss";
+@import "blocks/section-title.scss";
