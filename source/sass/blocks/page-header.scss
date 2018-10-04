@@ -2,6 +2,19 @@
   outline: 1px solid blue;
 }
 
+.page-header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 22px 30px;
+}
+
+.page-header__logo {
+  width: 86px;
+  height: 35px;
+  margin-left: 85px;
+}
+
 .page-header__logo-image {
   width: 86px;
   height: 35px;
@@ -13,4 +26,15 @@
   &:active {
     opacity: 0.3;
   }
+}
+
+.page-header__nav-toggle {
+  width: 21px;
+  height: 20px;
+  margin-left: 67px;
+  font-size: 0;
+  background-image: url("../img/icon-menu-close.svg");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border: none;
 }
