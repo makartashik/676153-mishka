@@ -1,4 +1,11 @@
+.copyright__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .copyright__text {
+  margin-right: 28px;
   font-family: "Open Sans Bold", "Arial", sans-serif;
   font-size: 19px;
   line-height: 18px;
@@ -9,12 +16,12 @@
   opacity: 0.3;
 }
 
-.copyright__link-icon path {
-  &:hover {
-    fill: #46c1ae;
-  }
+.copyright__link:active .copyright__link-icon {
+  opacity: 0.3;
+}
 
-  &:active {
-    fill: #bde3dd;
+.copyright__link-icon {
+  &:hover path {
+    fill: #46c1ae;
   }
 }
