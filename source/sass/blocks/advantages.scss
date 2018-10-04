@@ -6,6 +6,22 @@
   color: $title-color;
 }
 
+.advantages__item {
+  width: 215px;
+  padding-top: 54px;
+  margin-top: 30px;
+
+  &--width-smaller {
+    width: 197px;
+  }
+
+  &--width-larger {
+    width: 260px;
+  }
+}
+
 .advantages__item-title {
   margin: 0;
+  font-size: 17px;
+  line-height: 20px;
 }
