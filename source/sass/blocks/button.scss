@@ -1,0 +1,26 @@
+.button {
+  display: block;
+  width: 260px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: $main-color;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid $main-color;
+  box-sizing: border-box;
+
+  &--font-smaller {
+    font-size: 17px;
+  }
+
+  &--line-smaller {
+    line-height: 16px;
+  }
+
+  &--width-less {
+    width: 192px;
+  }
+}
