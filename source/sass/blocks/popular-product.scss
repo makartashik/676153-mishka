@@ -1,0 +1,21 @@
+.popular-product {
+  outline: 1px solid blue;
+}
+
+.popular-product__caption {
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  color: #63d1bb;
+  text-transform: uppercase;
+}
+
+.popular-product__description {
+  line-height: 24px;
+}
+
+.popular-product__price {
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+}

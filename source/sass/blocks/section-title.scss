@@ -1,0 +1,10 @@
+.section-title {
+  margin: 0;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 25px;
+  color: $title-color;
+
+  &--font-smaller {
+    font-size: 18px;
+  }
+}
