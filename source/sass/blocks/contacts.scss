@@ -1,4 +1,17 @@
-.contacts-section__write {
+.contacts__item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contacts__value {
   margin-left: 30px;
-  margin-right: 30px;
+
+  &--width-smaller {
+    width: 145px;
+  }
 }
