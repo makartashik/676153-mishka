@@ -2,7 +2,16 @@
   outline: 1px solid blue;
 }
 
+.popular-product__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 28px;
+  padding-bottom: 42px;
+}
+
 .popular-product__caption {
+  margin-top: 5px;
+  margin-bottom: 6px;
   font-family: "Open Sans Bold", "Arial", sans-serif;
   font-size: 17px;
   line-height: 20px;
@@ -15,7 +24,10 @@
 }
 
 .popular-product__price {
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-family: "Open Sans Bold", "Arial", sans-serif;
   font-size: 17px;
   line-height: 24px;
+  text-align: center;
 }

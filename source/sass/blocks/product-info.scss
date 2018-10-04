@@ -1,3 +1,15 @@
 .product-info {
+  width: 260px;
   line-height: 20px;
+  margin-bottom: 29px;
+  border-collapse: collapse;
+}
+
+.product-info__feature {
+  padding: 10px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.product-info__value {
+  border-bottom: 1px solid #ececec;
 }
