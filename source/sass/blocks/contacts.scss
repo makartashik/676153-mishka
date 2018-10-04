@@ -14,4 +14,18 @@
   &--width-smaller {
     width: 145px;
   }
+
+  &--email-link {
+    color: $main-color;
+    border-bottom: 1px solid #62d1ba;
+
+    &:hover {
+      color: #46c1ae;
+      border-bottom: 1px solid #46c1ae;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
 }

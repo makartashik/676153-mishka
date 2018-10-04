@@ -23,4 +23,18 @@
   &--width-less {
     width: 192px;
   }
+
+  &:hover {
+    color: #ffffff;
+    background-color: $main-color;
+  }
+
+  &:focus {
+    color: #ffffff;
+    background-color: $main-color;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
