@@ -1,5 +1,7 @@
 .product-categories {
   @include ul-standard;
+  display: flex;
+  flex-direction: column;
   font-family: "Open Sans Bold", "Arial", sans-serif;
   font-size: 19px;
   line-height: 24px;
@@ -14,13 +16,33 @@
 
   &--interior {
     background-color: #63d1bb;
+
+    &:hover {
+      background-color: #59d5bc;
+    }
+
+    &:active {
+      background-color: #59d5bc;
+    }
   }
 
   &--toy {
     background-color: #56c3b2;
+
+    &:hover {
+      background-color: #46c1ae;
+    }
+
+    &:active {
+      background-color: #46c1ae;
+    }
   }
 }
 
 .product-categories__title {
   width: 130px;
+
+  &:hover {
+    opacity: 0.3;
+  }
 }
