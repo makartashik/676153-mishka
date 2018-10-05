@@ -51,6 +51,13 @@
   border-color: #63d1bb;
 }
 
+.add-form__input:focus + .add-form__input-label::before {
+  outline-color: #4d90fe;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
 .add-form__input-label {
   display: block;
   padding-top: 20px;
