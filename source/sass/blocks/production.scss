@@ -1,0 +1,37 @@
+.production {
+  display: flex;
+  outline: 1px solid blue;
+}
+
+.production__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+  margin-bottom: 58px;
+  border: 1px solid #ececec;
+}
+
+.production__header {
+  padding: 23px 28px;
+}
+
+.production__title {
+  margin: 0;
+  padding-left: 62px;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: $title-color;
+}
+
+.production__text {
+  padding: 5px 34px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.production__button {
+  margin-left: 33px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
