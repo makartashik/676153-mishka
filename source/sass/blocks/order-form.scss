@@ -3,7 +3,18 @@
   padding-top: 22px;
   padding-bottom: 29px;
   border: none;
-  outline: 1px solid red;
+
+  &--color {
+    padding-bottom: 14px;
+  }
+
+  &--contacts {
+    padding-top: 4px;
+  }
+
+  &--extra {
+    padding-bottom: 0;
+  }
 }
 
 .order-form__fieldset-title {
@@ -28,7 +39,29 @@
 
 .order-form__list {
   @include ul-standard;
-  outline: 1px solid green;
+}
+
+.order-form__item {
+  &--border {
+    border-bottom: 2px solid $title-color;
+    margin-bottom: 14px;
+
+    &:hover {
+      border-color: #62d1ba;
+    }
+
+    &:active {
+      border-color: #62d1ba;
+    }
+
+    &:focus {
+      border-color: #62d1ba;
+    }
+  }
+
+  &--border:last-child {
+    margin-bottom: 5px;
+  }
 }
 
 .order-form__input-label {
@@ -41,11 +74,16 @@
   font-size: 17px;
   line-height: 18px;
   color: $title-color;
-  outline: 1px solid pink;
 
   &--color {
     padding-top: 14px;
     padding-bottom: 29px;
+  }
+
+  &--personal {
+    padding-left: 0;
+    padding-top: 7px;
+    padding-bottom: 0;
   }
 }
 
@@ -61,11 +99,19 @@
   box-sizing: border-box;
 }
 
+.order-form__input--radio:hover + .order-form__input-label::before {
+  border-color: #62d1ba;
+}
+
+.order-form__input--radio:active + .order-form__input-label::before {
+  border-color: rgba(68, 68, 68, 0.3);
+}
+
 .order-form__input--radio:checked + .order-form__input-label::after {
   content: "";
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 12.5px;
+  left: 11.5px;
   width: 16px;
   height: 16px;
   background-color: #62d1ba;
@@ -83,9 +129,76 @@
   box-sizing: border-box;
 }
 
+.order-form__input--checkbox:hover + .order-form__input-label::before {
+  border-color: #62d1ba;
+}
+
+.order-form__input--checkbox:active + .order-form__input-label::before {
+  border-color: rgba(68, 68, 68, 0.3);
+}
+
+.order-form__input--checkbox:checked + .order-form__input-label::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/icon-tick.svg");
+}
+
 .order-form__input:focus + .order-form__input-label::before {
   outline-color: #4d90fe;
   outline-offset: -2px;
   outline-style: auto;
   outline-width: 5px;
+}
+
+.order-form__input {
+  &--text {
+    width: 260px;
+    font-size: 19px;
+    line-height: 18px;
+    color: $main-color;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 14px;
+
+    &::placeholder {
+      font-size: 17px;
+      opacity: 0.3;
+    }
+  }
+
+  &--tel {
+    &::placeholder {
+      font-size: 19px;
+    }
+  }
+
+  &--wishes {
+    margin-top: 5px;
+    padding-top: 11px;
+    padding-left: 15px;
+    padding-bottom: 18px;
+    border: 2px solid $main-color;
+    box-sizing: border-box;
+
+    &:hover {
+      border-color: #62d1ba;
+    }
+
+    &:active {
+      border-color: #62d1ba;
+    }
+  }
+}
+
+.order-form__note {
+  margin-bottom: 25px;
+}
+
+.order-form__text-note {
+  font-size: 14px;
+  line-height: 16px;
 }

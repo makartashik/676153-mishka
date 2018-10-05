@@ -62,7 +62,7 @@
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="order-form__fieldset">
+              <fieldset class="order-form__fieldset order-form__fieldset--color">
                 <legend><div class="order-form__fieldset-title">Цвет</div></legend>
                 <ul class="order-form__list">
                   <li class="order-form__item">
@@ -95,29 +95,29 @@
                 <legend><div class="order-form__fieldset-title">Фио</div></legend>
                 <ul class="order-form__list">
                   <li class="order-form__item order-form__item--border">
-                    <label class="order-form__input-label" for="name-input">Имя:</label>
+                    <label class="order-form__input-label order-form__input-label--personal" for="name-input">Имя:</label>
                     <input class="order-form__input order-form__input--text" type="text" id="name-input" name="user-name" placeholder="Введите ваше имя*">
                   </li>
                   <li class="order-form__item order-form__item--border">
-                    <label class="order-form__input-label" for="surname-input">Фамилия:</label>
+                    <label class="order-form__input-label order-form__input-label--personal" for="surname-input">Фамилия:</label>
                     <input class="order-form__input order-form__input--text" type="text" id="surname-input" name="user-surname" placeholder="Укажите фамилию*">
                   </li>
                   <li class="order-form__item order-form__item--border">
-                    <label class="order-form__input-label" for="patronymic-input">Отчество:</label>
+                    <label class="order-form__input-label order-form__input-label--personal" for="patronymic-input">Отчество:</label>
                     <input class="order-form__input order-form__input--text" type="text" id="patronymic-input" name="user-patronymic" placeholder="Отчество, если желаете">
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="order-form__fieldset">
+              <fieldset class="order-form__fieldset order-form__fieldset--contacts">
                 <legend><div class="order-form__fieldset-title">Тел</div></legend>
                 <div class="order-form__list">
                   <div class="order-form__item order-form__item--border order-form__item--tel">
                     <label class="visually-hidden" for="telephone-input">Ваш номер телефона:</label>
-                    <input class="order-form__input order-form__input--text" type="tel" id="telephone-input" name="user-telephone" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
+                    <input class="order-form__input order-form__input--tel order-form__input--text" type="tel" id="telephone-input" name="user-telephone" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
                   </div>
                 </div>
               </fieldset>
-              <fieldset class="order-form__fieldset">
+              <fieldset class="order-form__fieldset order-form__fieldset--contacts">
                 <legend><div class="order-form__fieldset-title">E-mail</div></legend>
                 <div class="order-form__list">
                   <div class="order-form__item order-form__item--border order-form__item--mail">
@@ -126,12 +126,12 @@
                   </div>
                 </div>
               </fieldset>
-              <fieldset class="order-form__fieldset">
+              <fieldset class="order-form__fieldset order-form__fieldset--extra">
                 <legend><div class="order-form__fieldset-title">Доп</div></legend>
                 <div class="order-form__list">
                   <div class="order-form__item">
                     <label class="visually-hidden" for="comments-input">Ваши пожелания:</label>
-                    <textarea class="order-form__input order-form__input--text" id="comments-input" name="user-comments" rows="4" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+                    <textarea class="order-form__input order-form__input--wishes order-form__input--text" id="comments-input" name="user-comments" rows="6" wrap="soft" placeholder="Опишите все ваши пожелания к заказу"></textarea>
                   </div>
                 </div>
               </fieldset>
