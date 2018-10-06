@@ -1,5 +1,5 @@
 .page-footer {
-  background-color: #f1f1f1;
+  background-color: $page-back-color;
   outline: 1px solid blue;
 }
 
@@ -8,7 +8,7 @@
   margin-right: 30px;
   padding-top: 25px;
   padding-bottom: 18px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid $social-border-color;
 }
 
 .page-footer__copyright {

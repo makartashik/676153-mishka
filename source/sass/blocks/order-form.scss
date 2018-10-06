@@ -24,7 +24,7 @@
   font-family: $bold-font-family;
   font-size: $medium-font-size;
   line-height: $least-line-height;
-  color: #63d1bb;
+  color: $main-green-color;
   text-transform: uppercase;
 
   &::after {
@@ -33,7 +33,7 @@
     height: 1px;
     margin-left: auto;
     margin-top: 7px;
-    background-color: #62d1ba;
+    background-color: $extra-green-color;
   }
 }
 
@@ -47,15 +47,15 @@
     margin-bottom: 14px;
 
     &:hover {
-      border-color: #62d1ba;
+      border-color: $extra-green-color;
     }
 
     &:active {
-      border-color: #62d1ba;
+      border-color: $extra-green-color;
     }
 
     &:focus {
-      border-color: #62d1ba;
+      border-color: $extra-green-color;
     }
   }
 
@@ -100,11 +100,11 @@
 }
 
 .order-form__input--radio:hover + .order-form__input-label::before {
-  border-color: #62d1ba;
+  border-color: $extra-green-color;
 }
 
 .order-form__input--radio:active + .order-form__input-label::before {
-  border-color: rgba(68, 68, 68, 0.3);
+  border-color: $main-clear-color;
 }
 
 .order-form__input--radio:checked + .order-form__input-label::after {
@@ -114,7 +114,7 @@
   left: 11.5px;
   width: 16px;
   height: 16px;
-  background-color: #62d1ba;
+  background-color: $extra-green-color;
   border-radius: 50%;
 }
 
@@ -130,11 +130,11 @@
 }
 
 .order-form__input--checkbox:hover + .order-form__input-label::before {
-  border-color: #62d1ba;
+  border-color: $extra-green-color;
 }
 
 .order-form__input--checkbox:active + .order-form__input-label::before {
-  border-color: rgba(68, 68, 68, 0.3);
+  border-color: $main-clear-color;
 }
 
 .order-form__input--checkbox:checked + .order-form__input-label::after {
@@ -148,7 +148,7 @@
 }
 
 .order-form__input:focus + .order-form__input-label::before {
-  outline-color: #4d90fe;
+  outline-color: $focus-browser-color;
   outline-offset: -2px;
   outline-style: auto;
   outline-width: 5px;
@@ -185,11 +185,11 @@
     box-sizing: border-box;
 
     &:hover {
-      border-color: #62d1ba;
+      border-color: $extra-green-color;
     }
 
     &:active {
-      border-color: #62d1ba;
+      border-color: $extra-green-color;
     }
   }
 }

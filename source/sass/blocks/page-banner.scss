@@ -1,6 +1,6 @@
 .page-banner {
   padding: 71px 0 75px;
-  background-color: #f1f1f1;
+  background-color: $page-back-color;
   outline: 1px solid blue;
 
   &--index {
@@ -8,7 +8,7 @@
     background-image: url("../img/hero-mobile@1x.jpg");
     background-repeat: no-repeat;
     background-position: center -17px;
-    border-top: 1px solid #ececec;
+    border-top: 1px solid $gray-border-color;
   }
 }
 

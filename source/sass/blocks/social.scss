@@ -15,11 +15,11 @@
 
 .social__link {
   &:hover path {
-    fill: #46c1ae;
+    fill: $hover-extra-green-color;
   }
 
   &:active path {
-    fill: #46c1ae;
+    fill: $hover-extra-green-color;
     opacity: 0.3;
   }
 }

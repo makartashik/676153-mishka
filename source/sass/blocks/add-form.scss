@@ -35,24 +35,24 @@
   width: 82px;
   height: 52px;
   text-align: center;
-  border: 2px solid rgba(68, 68, 68, 0.1);
+  border: 2px solid $main-transparent-color;
   box-sizing: border-box;
 }
 
 .add-form__input:hover + .add-form__input-label::before {
-  border-color: rgba(68, 68, 68, 0.3);
+  border-color: $main-clear-color;
 }
 
 .add-form__input:active + .add-form__input-label::before {
-  border-color: #63d1bb;
+  border-color: $main-green-color;
 }
 
 .add-form__input:checked + .add-form__input-label::before {
-  border-color: #63d1bb;
+  border-color: $main-green-color;
 }
 
 .add-form__input:focus + .add-form__input-label::before {
-  outline-color: #4d90fe;
+  outline-color: $focus-browser-color;
   outline-offset: -2px;
   outline-style: auto;
   outline-width: 5px;

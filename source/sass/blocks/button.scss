@@ -28,17 +28,17 @@
   }
 
   &:hover {
-    color: #ffffff;
+    color: $white-color;
     background-color: $main-color;
   }
 
   &:focus {
-    color: #ffffff;
+    color: $white-color;
     background-color: $main-color;
   }
 
   &:active {
-    color: rgba(255, 255, 255, 0.3);
+    color: $white-clear-color;
   }
 
   &--green {
@@ -46,8 +46,8 @@
     padding-bottom: 16px;
     font-size: $medium-font-size;
     line-height: $least-line-height;
-    color: #ffffff;
-    background-color: #63d1bb;
+    color: $white-color;
+    background-color: $main-green-color;
     border: none;
   }
 }

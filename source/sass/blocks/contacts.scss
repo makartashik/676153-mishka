@@ -17,11 +17,11 @@
 
   &--email-link {
     color: $main-color;
-    border-bottom: 1px solid #62d1ba;
+    border-bottom: 1px solid $extra-green-color;
 
     &:hover {
-      color: #46c1ae;
-      border-bottom: 1px solid #46c1ae;
+      color: $hover-extra-green-color;
+      border-bottom: 1px solid $hover-extra-green-color;
     }
 
     &:active {

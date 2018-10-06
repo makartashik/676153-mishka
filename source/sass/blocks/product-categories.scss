@@ -12,30 +12,30 @@
   padding-left: 30px;
   padding-top: 25px;
   padding-bottom: 30px;
-  color: #ffffff;
+  color: $white-color;
   outline: 1px solid pink;
 
   &--interior {
-    background-color: #63d1bb;
+    background-color: $main-green-color;
 
     &:hover {
-      background-color: #59d5bc;
+      background-color: $hover-main-green-color;
     }
 
     &:active {
-      background-color: #59d5bc;
+      background-color: $hover-main-green-color;
     }
   }
 
   &--toy {
-    background-color: #56c3b2;
+    background-color: $dark-green-color;
 
     &:hover {
-      background-color: #46c1ae;
+      background-color: $hover-extra-green-color;
     }
 
     &:active {
-      background-color: #46c1ae;
+      background-color: $hover-extra-green-color;
     }
   }
 }

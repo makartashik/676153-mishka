@@ -1,5 +1,20 @@
 $main-color: #444444;
+$main-clear-color: rgba(68, 68, 68, 0.3);
+$main-transparent-color: rgba(68, 68, 68, 0.1);
+$main-green-color: #63d1bb;
+$extra-green-color: #62d1ba;
+$dark-green-color: #56c3b2;
+$hover-main-green-color: #59d5bc;
+$hover-extra-green-color: #46c1ae;
 $title-color: #000000;
+$white-color: #ffffff;
+$white-clear-color: rgba(255, 255, 255, 0.3);
+$page-back-color: #f1f1f1;
+$gray-border-color: #ececec;
+$social-border-color: #e5e5e5;
+$modal-border-color: #c6c6c6;
+$modal-shadow-color: rgba(0, 1, 1, 0.25);
+$focus-browser-color: #4d90fe;
 
 $body-font-family: "Open Sans", "Arial", sans-serif;
 $body-font-size: 15px;
@@ -7,7 +22,6 @@ $body-line-height: 30px;
 $body-font-weight: 400;
 
 $bold-font-family: "Open Sans Bold", "Arial", sans-serif;
-
 $bold-font-weight: 700;
 
 $note-font-size: 13px;
