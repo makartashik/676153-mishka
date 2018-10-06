@@ -2,9 +2,9 @@
   @include ul-standard;
   display: flex;
   flex-direction: column;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 19px;
-  line-height: 24px;
+  font-family: $bold-font-family;
+  font-size: $big-font-size;
+  line-height: $big-line-height;
 }
 
 .product-categories__link {

@@ -5,8 +5,8 @@
 .order-section__text {
   margin: 0;
   padding-top: 23px;
-  font-size: 13px;
-  line-height: 24px;
+  font-size: $note-font-size;
+  line-height: $big-line-height;
 }
 
 .order-section__form {

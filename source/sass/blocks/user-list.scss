@@ -1,9 +1,9 @@
 .user-list {
   @include ul-standard;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 700;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $big-line-height;
+  font-weight: $bold-font-weight;
   color: $title-color;
 }
 

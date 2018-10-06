@@ -6,9 +6,9 @@
 
 .copyright__text {
   margin-right: 28px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 19px;
-  line-height: 18px;
+  font-family: $bold-font-family;
+  font-size: $big-font-size;
+  line-height: $small-line-height;
   color: $title-color;
 }
 

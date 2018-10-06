@@ -3,9 +3,9 @@
   width: 260px;
   padding-top: 14px;
   padding-bottom: 14px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 18px;
-  line-height: 20px;
+  font-family: $bold-font-family;
+  font-size: $button-font-size;
+  line-height: $medium-line-height;
   color: $main-color;
   text-align: center;
   text-transform: uppercase;
@@ -13,14 +13,14 @@
   box-sizing: border-box;
 
   &--font-smaller {
-    font-size: 17px;
+    font-size: $medium-font-size;
   }
 
   &--order {
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 17px;
-    line-height: 16px;
+    font-size: $medium-font-size;
+    line-height: $least-line-height;
   }
 
   &--width-less {
@@ -44,8 +44,8 @@
   &--green {
     padding-top: 20px;
     padding-bottom: 16px;
-    font-size: 17px;
-    line-height: 16px;
+    font-size: $medium-font-size;
+    line-height: $least-line-height;
     color: #ffffff;
     background-color: #63d1bb;
     border: none;

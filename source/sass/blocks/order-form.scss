@@ -21,9 +21,9 @@
   display: flex;
   width: 260px;
   margin: 0;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 16px;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $least-line-height;
   color: #63d1bb;
   text-transform: uppercase;
 
@@ -70,9 +70,9 @@
   padding-left: 62px;
   padding-top: 10px;
   padding-bottom: 15px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 18px;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $small-line-height;
   color: $title-color;
 
   &--color {
@@ -157,22 +157,22 @@
 .order-form__input {
   &--text {
     width: 260px;
-    font-size: 19px;
-    line-height: 18px;
+    font-size: $big-font-size;
+    line-height: $small-line-height;
     color: $main-color;
     border: none;
     padding-top: 10px;
     padding-bottom: 14px;
 
     &::placeholder {
-      font-size: 17px;
+      font-size: $medium-font-size;
       opacity: 0.3;
     }
   }
 
   &--tel {
     &::placeholder {
-      font-size: 19px;
+      font-size: $big-font-size;
     }
   }
 
@@ -199,6 +199,6 @@
 }
 
 .order-form__text-note {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: $small-font-size;
+  line-height: $least-line-height;
 }

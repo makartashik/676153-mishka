@@ -18,16 +18,16 @@
 .production__title {
   margin: 0;
   padding-left: 62px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 24px;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $big-line-height;
   color: $title-color;
 }
 
 .production__text {
   padding: 5px 34px;
-  font-size: 13px;
-  line-height: 24px;
+  font-size: $note-font-size;
+  line-height: $big-line-height;
 }
 
 .production__button {

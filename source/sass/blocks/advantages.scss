@@ -1,8 +1,8 @@
 .advantages {
   @include ul-standard;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 20px;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $medium-line-height;
   color: $title-color;
 }
 
@@ -22,6 +22,6 @@
 
 .advantages__item-title {
   margin: 0;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: $medium-font-size;
+  line-height: $medium-line-height;
 }

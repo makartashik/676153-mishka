@@ -12,22 +12,22 @@
 .popular-product__caption {
   margin-top: 5px;
   margin-bottom: 6px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 20px;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $medium-line-height;
   color: #63d1bb;
   text-transform: uppercase;
 }
 
 .popular-product__description {
-  line-height: 24px;
+  line-height: $big-line-height;
 }
 
 .popular-product__price {
   padding-top: 25px;
   padding-bottom: 25px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 24px;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $big-line-height;
   text-align: center;
 }

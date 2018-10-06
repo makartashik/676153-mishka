@@ -8,12 +8,12 @@
 
 .review__author-info {
   margin-top: 25px;
-  font-size: 17px;
+  font-size: $medium-font-size;
 }
 
 .review__author-name {
-  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-family: $bold-font-family;
   font-style: normal;
-  line-height: 24px;
+  line-height: $big-line-height;
   color: $title-color;
 }

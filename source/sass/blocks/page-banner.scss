@@ -15,9 +15,9 @@
 .page-banner__title {
   width: 260px;
   margin: 0 auto;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 27px;
-  line-height: 30px;
+  font-family: $bold-font-family;
+  font-size: $banner-font-size;
+  line-height: $body-line-height;
   text-align: center;
   color: $title-color;
 }

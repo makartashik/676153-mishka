@@ -61,9 +61,9 @@
 .add-form__input-label {
   display: block;
   padding-top: 20px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 16px;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $least-line-height;
   text-align: center;
 }
 

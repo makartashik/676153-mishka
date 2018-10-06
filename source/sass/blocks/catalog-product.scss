@@ -14,9 +14,9 @@
   margin: 0;
   margin-top: 28px;
   margin-left: 28px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 17px;
-  line-height: 24px;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $big-line-height;
 }
 
 .catalog-product__title-link {
@@ -36,7 +36,7 @@
   margin-left: 28px;
   margin-top: 5px;
   margin-bottom: 18px;
-  font-size: 13px;
+  font-size: $note-font-size;
 }
 
 .catalog-product__cost {
@@ -52,9 +52,9 @@
 
 .catalog-product__price {
   width: 103px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 24px;
+  font-family: $bold-font-family;
+  font-size: $body-font-size;
+  line-height: $big-line-height;
   color: $title-color;
 }
 

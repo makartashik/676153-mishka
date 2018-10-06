@@ -15,9 +15,9 @@
   margin: 0;
   margin-left: 50px;
   margin-bottom: 10px;
-  font-family: "Open Sans Bold", "Arial", sans-serif;
-  font-size: 25px;
-  line-height: 30px;
+  font-family: $bold-font-family;
+  font-size: $title-font-size;
+  line-height: $body-line-height;
   vertical-align: middle;
   text-align: center;
   color: $title-color;
