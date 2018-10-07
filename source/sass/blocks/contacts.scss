@@ -1,0 +1,31 @@
+.contacts__item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contacts__value {
+  margin-left: 30px;
+
+  &--width-smaller {
+    width: 145px;
+  }
+
+  &--email-link {
+    color: $main-color;
+    border-bottom: 1px solid $extra-green-color;
+
+    &:hover {
+      color: $hover-extra-green-color;
+      border-bottom: 1px solid $hover-extra-green-color;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
+}

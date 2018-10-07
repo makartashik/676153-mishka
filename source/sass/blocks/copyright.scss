@@ -1,0 +1,27 @@
+.copyright__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright__text {
+  margin-right: 28px;
+  font-family: $bold-font-family;
+  font-size: $big-font-size;
+  line-height: $small-line-height;
+  color: $title-color;
+}
+
+.copyright__link:active .copyright__text {
+  opacity: 0.3;
+}
+
+.copyright__link:active .copyright__link-icon {
+  opacity: 0.3;
+}
+
+.copyright__link-icon {
+  &:hover path {
+    fill: $hover-extra-green-color;
+  }
+}

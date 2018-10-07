@@ -1,0 +1,18 @@
+.contacts-section {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid blue;
+}
+
+.contacts-section__container {
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.contacts-section__info {
+  margin-top: 28px;
+}
+
+.contacts-section__write {
+  margin: 30px 30px 40px 30px;
+}

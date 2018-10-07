@@ -1,0 +1,25 @@
+.social__list {
+  @include ul-standard;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__item {
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
+  &:hover path {
+    fill: $hover-extra-green-color;
+  }
+
+  &:active path {
+    fill: $hover-extra-green-color;
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,16 @@
+.catalog {
+  outline: 1px solid blue;
+}
+
+.catalog__container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.catalog__item {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

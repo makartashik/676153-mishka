@@ -1,0 +1,16 @@
+.product-info {
+  width: 260px;
+  line-height: $medium-line-height;
+  margin-bottom: 29px;
+  border-collapse: collapse;
+}
+
+.product-info__feature {
+  padding: 10px 0;
+  border-bottom: 1px solid $gray-border-color;
+}
+
+.product-info__value {
+  padding-left: 18px;
+  border-bottom: 1px solid $gray-border-color;
+}

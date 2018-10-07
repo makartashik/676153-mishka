@@ -1,0 +1,15 @@
+.order-section {
+  outline: 1px solid blue;
+}
+
+.order-section__text {
+  margin: 0;
+  padding-top: 23px;
+  font-size: $note-font-size;
+  line-height: $big-line-height;
+}
+
+.order-section__form {
+  margin-top: 25px;
+  padding-bottom: 54px;
+}

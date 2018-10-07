@@ -1,0 +1,10 @@
+.section-title {
+  margin: 0;
+  font-family: $bold-font-family;
+  font-size: $title-font-size;
+  color: $title-color;
+
+  &--font-smaller {
+    font-size: $button-font-size;
+  }
+}

@@ -1,0 +1,49 @@
+.product-categories {
+  @include ul-standard;
+  display: flex;
+  flex-direction: column;
+  font-family: $bold-font-family;
+  font-size: $big-font-size;
+  line-height: $big-line-height;
+}
+
+.product-categories__link {
+  display: block;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  color: $white-color;
+  outline: 1px solid pink;
+
+  &--interior {
+    background-color: $main-green-color;
+
+    &:hover {
+      background-color: $hover-main-green-color;
+    }
+
+    &:active {
+      background-color: $hover-main-green-color;
+    }
+  }
+
+  &--toy {
+    background-color: $dark-green-color;
+
+    &:hover {
+      background-color: $hover-extra-green-color;
+    }
+
+    &:active {
+      background-color: $hover-extra-green-color;
+    }
+  }
+}
+
+.product-categories__title {
+  width: 130px;
+
+  &:active {
+    opacity: 0.3;
+  }
+}

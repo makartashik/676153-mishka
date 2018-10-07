@@ -1,0 +1,27 @@
+.advantages {
+  @include ul-standard;
+  font-family: $bold-font-family;
+  font-size: $medium-font-size;
+  line-height: $medium-line-height;
+  color: $title-color;
+}
+
+.advantages__item {
+  width: 215px;
+  padding-top: 54px;
+  margin-top: 30px;
+
+  &--width-smaller {
+    width: 197px;
+  }
+
+  &--width-larger {
+    width: 260px;
+  }
+}
+
+.advantages__item-title {
+  margin: 0;
+  font-size: $medium-font-size;
+  line-height: $medium-line-height;
+}

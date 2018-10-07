@@ -1,0 +1,25 @@
+.modal {
+  width: 320px;
+  border-top: 1px solid $modal-border-color;
+  box-shadow: 0 5px 10px $modal-shadow-color;
+}
+
+.modal__container {
+  padding-top: 36px;
+  padding-bottom: 46px;
+}
+
+.modal__title {
+  display: inline-block;
+  width: 160px;
+  margin: 0;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-family: $bold-font-family;
+  font-size: $title-font-size;
+  line-height: $body-line-height;
+  vertical-align: middle;
+  text-align: center;
+  color: $title-color;
+  text-transform: uppercase;
+}
