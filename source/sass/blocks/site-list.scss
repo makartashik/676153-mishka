@@ -23,3 +23,17 @@
   display: block;
   padding: 30px 0 30px 75px;
 }
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    width: 334px;
+    font-size: 15px;
+    order: 1;
+    outline: 1px solid pink;
+  }
+
+  .site-list__link {
+    padding: 16px 33px 16px 0;
+  }
+}

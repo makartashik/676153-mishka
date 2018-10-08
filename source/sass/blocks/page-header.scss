@@ -38,3 +38,38 @@
   background-color: $white-color;
   border: none;
 }
+
+.page-header__note {
+  display: none;
+  line-height: $big-line-height;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    display: flex;
+    padding: 0 50px;
+    flex-wrap: wrap;
+  }
+
+  .page-header__container {
+    width: 320px;
+    padding: 22px 0;
+    outline: 1px solid pink;
+  }
+
+  .page-header__logo {
+    width: 113px;
+    height: 46px;
+    margin: 0;
+    outline: 1px solid red;
+  }
+
+  .page-header__note {
+    display: block;
+    width: 334px;
+    padding: 16px 0;
+    text-align: right;
+    order: 2;
+    outline: 1px solid pink;
+  }
+}
