@@ -37,7 +37,7 @@
 
   .page-banner__title {
     width: 600px;
-    font-size: 43px;
-    line-height: 50px;
+    font-size: $tablet-title-font-size;
+    line-height: $tablet-big-line-height;
   }
 }

@@ -8,3 +8,10 @@
     font-size: $button-font-size;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .section-title {
+    font-size: $tablet-title-font-size;
+    line-height: $tablet-big-line-height;
+  }
+}
