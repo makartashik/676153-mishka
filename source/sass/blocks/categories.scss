@@ -1,7 +1,17 @@
 .categories {
-  outline: 1px solid blue;
+  outline: 1px solid black;
 }
 
 .categories__list {
   margin-top: -73px;
+}
+
+@media (min-width: $tablet-width) {
+  .categories {
+    padding: 0 50px;
+  }
+
+  .categories__list {
+    margin-top: -124px;
+  }
 }
