@@ -1,5 +1,5 @@
 .page-header {
-  outline: 1px solid blue;
+  outline: 1px solid orange;
 }
 
 .page-header__container {
@@ -46,9 +46,11 @@
 
 @media (min-width: $tablet-width) {
   .page-header {
+    position: relative;
     display: flex;
     padding: 0 50px;
     flex-wrap: wrap;
+    z-index: 2;
   }
 
   .page-header__container {

@@ -21,3 +21,23 @@
   text-align: center;
   color: $title-color;
 }
+
+@media (min-width: $tablet-width) {
+  .page-banner {
+    padding: 95px 0 75px;
+    margin-top: -58px;
+
+    &--index {
+      min-height: 523px;
+      padding-top: 152px;
+      background-image: url("../img/hero-tablet@1x.jpg");
+      background-position: center 0;
+    }
+  }
+
+  .page-banner__title {
+    width: 600px;
+    font-size: 43px;
+    line-height: 50px;
+  }
+}
