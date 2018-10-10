@@ -59,6 +59,10 @@
     outline: 1px solid pink;
   }
 
+  .page-header__nav-toggle {
+    display: none;
+  }
+
   .page-header__logo {
     width: 113px;
     height: 46px;
@@ -73,5 +77,24 @@
     text-align: right;
     order: 2;
     outline: 1px solid pink;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    justify-content: space-between;
+  }
+
+  .page-header__container {
+    width: 300px;
+    padding: 9px 0;
+    order: 1;
+  }
+
+  .page-header__logo {
+    width: 149px;
+    height: 72px;
+    margin-left: 50%;
+    transform: translateX(-58%);
   }
 }

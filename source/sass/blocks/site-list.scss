@@ -37,3 +37,25 @@
     padding: 16px 33px 16px 0;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 376px;
+    font-size: $medium-font-size;
+    order: 0;
+  }
+
+  .site-list__link {
+    padding: 30px 33px 34px 0;
+
+    &--left {
+      width: 154px;
+    }
+
+    &--right {
+      width: 157px;
+      padding-right: 0;
+      padding-left: 35px;
+    }
+  }
+}

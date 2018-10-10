@@ -1,0 +1,44 @@
+.extra-list {
+  @include ul-standard;
+  display: none;
+  font-family: $bold-font-family;
+  font-size: $body-font-size;
+  line-height: $big-line-height;
+  font-weight: $bold-font-weight;
+  color: $title-color;
+}
+
+.extra-list__item {
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.extra-list__link {
+  display: block;
+  padding: 15px 0 30px 2px;
+}
+
+@media (min-width: $desktop-width) {
+  .extra-list {
+    display: flex;
+    width: 376px;
+    order: 1;
+    outline: 1px solid pink;
+  }
+
+  .extra-list__link {
+    &--left {
+      width: 185px;
+    }
+
+    &--right {
+      width: 157px;
+      padding-left: 35px;
+    }
+  }
+}

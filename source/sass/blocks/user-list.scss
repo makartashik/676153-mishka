@@ -45,3 +45,14 @@
     padding-left: 80px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .user-list {
+    width: 349px;
+    order: 1;
+  }
+
+  .user-list__basket {
+    padding-left: 83px;
+  }
+}

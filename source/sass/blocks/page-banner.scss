@@ -41,3 +41,9 @@
     line-height: $tablet-big-line-height;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-banner {
+    margin-top: -69px;
+  }
+}
