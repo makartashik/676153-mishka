@@ -6,3 +6,21 @@
   padding-top: 28px;
   padding-bottom: 25px;
 }
+
+@media (min-width: $tablet-width) {
+  .advantages-section__container {
+    padding-top: 49px;
+    padding-bottom: 71px;
+  }
+
+  .advantages-section__content {
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid pink;
+  }
+
+  .advantages-section__list {
+    width: 334px;
+    outline: 1px solid black;
+  }
+}
