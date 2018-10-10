@@ -6,14 +6,13 @@
   margin-top: 25px;
 }
 
-.review__author-info {
-  margin-top: 25px;
-  font-size: $medium-font-size;
-}
+@media (min-width: $tablet-width) {
+  .review {
+    padding-top: 20px;
+  }
 
-.review__author-name {
-  font-family: $bold-font-family;
-  font-style: normal;
-  line-height: $big-line-height;
-  color: $title-color;
+  .review__text {
+    width: 668px;
+    font-size: $medium-font-size;
+  }
 }
