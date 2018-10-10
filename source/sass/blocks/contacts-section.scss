@@ -14,5 +14,32 @@
 }
 
 .contacts-section__write {
-  margin: 30px 30px 40px 30px;
+  margin: 40px 30px 40px 30px;
+}
+
+.contacts-section__map {
+  width: 100%;
+  height: 457px;
+  border: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts-section__container {
+    padding-top: 60px;
+    outline: 1px solid pink;
+  }
+
+  .contacts-section__info {
+    margin-top: 50px;
+  }
+
+  .contacts-section__map {
+    margin-top: 20px;
+    outline: 1px solid pink;
+  }
+
+  .contacts-section__write {
+    width: 229px;
+    margin: 54px auto 57px;
+  }
 }
