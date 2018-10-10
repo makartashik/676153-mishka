@@ -62,3 +62,9 @@
     padding-bottom: 36px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .product-categories__link {
+    width: 491px;
+  }
+}
