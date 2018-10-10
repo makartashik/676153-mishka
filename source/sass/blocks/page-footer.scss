@@ -3,6 +3,10 @@
   outline: 1px solid blue;
 }
 
+.page-footer__logo {
+  display: none;
+}
+
 .page-footer__social {
   margin-left: 30px;
   margin-right: 30px;
@@ -14,4 +18,31 @@
 .page-footer__copyright {
   padding-top: 20px;
   padding-bottom: 22px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 45px;
+  }
+
+  .page-footer__logo {
+    display: block;
+    outline: 1px solid green;
+  }
+
+  .page-footer__social {
+    margin-left: 70px;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    outline: 1px solid green;
+  }
+
+  .page-footer__copyright {
+    padding-top: 7px;
+    padding-bottom: 0;
+    outline: 1px solid green;
+  }
 }
