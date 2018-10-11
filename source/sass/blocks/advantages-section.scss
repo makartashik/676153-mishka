@@ -24,3 +24,11 @@
     outline: 1px solid black;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .advantages-section__container {
+    padding-top: 60px;
+    padding-left: 225px;
+    padding-bottom: 76px;
+  }
+}

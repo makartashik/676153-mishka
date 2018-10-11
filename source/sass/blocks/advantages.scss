@@ -48,3 +48,9 @@
     line-height: $tablet-medium-line-height;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .advantages-section__list--right .advantages__item {
+    padding-left: 15px;
+  }
+}
