@@ -76,3 +76,30 @@
     outline: 1px solid pink;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .reviews__container {
+    width: 875px;
+    padding-left: 225px;
+    padding-top: 75px;
+    padding-bottom: 149px;
+    background-position: 50px 0;
+  }
+
+  .reviews_list {
+    width: 875px;
+  }
+
+  .reviews__author-info {
+    padding-top: 0;
+    margin-top: 20px;
+  }
+
+  .reviews__author-name {
+    font-size: $medium-font-size;
+  }
+
+  .reviews__write {
+    margin-top: 3px;
+  }
+}
