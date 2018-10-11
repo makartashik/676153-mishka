@@ -15,3 +15,10 @@
     line-height: $tablet-big-line-height;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .section-title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+}

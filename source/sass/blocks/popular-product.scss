@@ -103,3 +103,48 @@
     width: 100%;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .popular-product__container {
+    width: 1050px;
+    padding-top: 117px;
+    padding-bottom: 95px;
+  }
+
+  .popular-product__header {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    z-index: 5;
+  }
+
+  .popular-product__title {
+    padding-left: 30px;
+    outline: 1px solid green;
+  }
+
+  .popular-product__caption {
+    padding-left: 21px;
+    padding-top: 10px;
+    outline: 1px solid green;
+  }
+
+  .popular-product__content {
+    margin-left: 175px;
+  }
+
+  .popular-product__description {
+    margin-bottom: 43px;
+  }
+
+  .popular-product__image {
+    width: 525px;
+    height: 637px;
+    top: 67px;
+    right: 50px;
+  }
+
+  .popular-product__price-content {
+    width: 292px;
+    margin-top: 55px;
+  }
+}
