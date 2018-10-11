@@ -1,4 +1,5 @@
 .contacts-section {
+  position: relative;
   display: flex;
   flex-direction: column;
   outline: 1px solid blue;
@@ -41,5 +42,24 @@
   .contacts-section__write {
     width: 229px;
     margin: 54px auto 57px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts-section__container {
+    padding-top: 139px;
+    padding-left: 225px;
+    padding-bottom: 69px;
+  }
+
+  .contacts-section__write {
+    margin: 10px 0 103px 225px;
+  }
+
+  .contacts-section__map {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 525px;
   }
 }

@@ -53,3 +53,13 @@
     }
   }
 }
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    flex-direction: column;
+  }
+
+  .contacts__item {
+    margin-bottom: 28px;
+  }
+}
