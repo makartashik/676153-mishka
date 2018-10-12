@@ -25,3 +25,20 @@
     margin-bottom: 52px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .catalog__container {
+    width: 1050px;
+    padding-top: 127px;
+    padding-bottom: 9px;
+  }
+
+  .catalog__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .catalog__item {
+    margin-right: 49px;
+  }
+}
