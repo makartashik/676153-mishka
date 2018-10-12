@@ -27,6 +27,7 @@
 @media (min-width: $tablet-width) {
   .site-list {
     display: flex;
+    flex-wrap: wrap;
     width: 334px;
     font-size: 15px;
     order: 1;
@@ -49,11 +50,11 @@
     padding: 30px 33px 34px 0;
 
     &--left {
-      width: 154px;
+      width: 153px;
     }
 
     &--right {
-      width: 157px;
+      width: 156px;
       padding-right: 0;
       padding-left: 34px;
     }

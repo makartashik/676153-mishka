@@ -1,6 +1,7 @@
 .product-categories {
   @include ul-standard;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   font-family: $bold-font-family;
   font-size: $big-font-size;

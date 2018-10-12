@@ -26,6 +26,7 @@
 @media (min-width: $desktop-width) {
   .extra-list {
     display: flex;
+    flex-wrap: wrap;
     width: 376px;
     order: 1;
     outline: 1px solid pink;
@@ -33,11 +34,11 @@
 
   .extra-list__link {
     &--left {
-      width: 185px;
+      width: 184px;
     }
 
     &--right {
-      width: 157px;
+      width: 156px;
       padding-left: 34px;
     }
   }

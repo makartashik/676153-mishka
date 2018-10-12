@@ -27,6 +27,7 @@
 @media (min-width: $tablet-width) {
   .user-list {
     display: flex;
+    flex-wrap: wrap;
     width: 346px;
     outline: 1px solid pink;
   }
