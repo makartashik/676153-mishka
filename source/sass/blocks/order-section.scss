@@ -13,3 +13,39 @@
   margin-top: 25px;
   padding-bottom: 54px;
 }
+
+@media (min-width: $tablet-width) {
+  .order-section__container {
+    width: 768px;
+    padding-top: 55px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .order-section__text {
+    margin-left: 50px;
+    padding-right: 50px;
+    font-size: $medium-font-size;
+    line-height: $body-line-height;
+  }
+
+  .order-section__form {
+    padding-top: 9px;
+    padding-bottom: 50px;
+    outline: 1px solid black;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .order-section__container {
+    width: 1150px;
+    padding-top: 98px;
+  }
+
+  .order-section__text {
+    width: 700px;
+    padding-right: 20px;
+    margin-left: 225px;
+    outline: 1px solid blue;
+  }
+}

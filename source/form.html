@@ -51,102 +51,116 @@
         </div>
 
         <section class="order-section">
-          <div class="container">
+          <div class="order-section__container container">
             <h2 class="visually-hidden">Форма заказа товара</h2>
             <p class="order-section__text">
               Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
             </p>
             <form class="order-section__form order-form" action="https://echo.htmlacademy.ru/" method="post">
               <fieldset class="order-form__fieldset">
-                <legend><div class="order-form__fieldset-title">Тип</div></legend>
-                <ul class="order-form__list">
-                  <li class="order-form__item">
-                    <input class="order-form__input order-form__input--radio visually-hidden" type="radio" id="interior-type" name="product-type" value="interior" checked>
-                    <label class="order-form__input-label" for="interior-type">Аксессуар для интерьера</label>
-                  </li>
-                  <li class="order-form__item">
-                    <input class="order-form__input order-form__input--radio visually-hidden" type="radio" id="toy-type" name="product-type" value="toy">
-                    <label class="order-form__input-label" for="toy-type">Детская игрушка</label>
-                  </li>
-                </ul>
+                <div class="order-form__fieldset-container">
+                  <legend><div class="order-form__fieldset-title">Тип</div></legend>
+                  <ul class="order-form__list">
+                    <li class="order-form__item">
+                      <input class="order-form__input order-form__input--radio visually-hidden" type="radio" id="interior-type" name="product-type" value="interior" checked>
+                      <label class="order-form__input-label" for="interior-type">Аксессуар для интерьера</label>
+                    </li>
+                    <li class="order-form__item">
+                      <input class="order-form__input order-form__input--radio visually-hidden" type="radio" id="toy-type" name="product-type" value="toy">
+                      <label class="order-form__input-label" for="toy-type">Детская игрушка</label>
+                    </li>
+                  </ul>
+                </div>
               </fieldset>
               <fieldset class="order-form__fieldset order-form__fieldset--color">
-                <legend><div class="order-form__fieldset-title">Цвет</div></legend>
-                <ul class="order-form__list">
-                  <li class="order-form__item">
-                    <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="white-color" name="white" value="white" checked>
-                    <label class="order-form__input-label order-form__input-label--color" for="white-color">Белый</label>
-                  </li>
-                  <li class="order-form__item">
-                    <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="gray-color" name="gray" value="gray" checked>
-                    <label class="order-form__input-label order-form__input-label--color" for="gray-color">Серый</label>
-                  </li>
-                  <li class="order-form__item">
-                    <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="tiffany-color" name="tiffany" value="tiffany">
-                    <label class="order-form__input-label order-form__input-label--color" for="tiffany-color">«Тиффани»</label>
-                  </li>
-                  <li class="order-form__item">
-                    <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="black-color" name="black" value="black">
-                    <label class="order-form__input-label order-form__input-label--color" for="black-color">Черный</label>
-                  </li>
-                  <li class="order-form__item">
-                    <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="pink-color" name="pink" value="pink">
-                    <label class="order-form__input-label order-form__input-label--color" for="pink-color">Розовый</label>
-                  </li>
-                  <li class="order-form__item">
-                    <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="orange-color" name="orange" value="orange">
-                    <label class="order-form__input-label order-form__input-label--color" for="orange-color">Оранжевый</label>
-                  </li>
-                </ul>
+                <div class="order-form__fieldset-container">
+                  <legend><div class="order-form__fieldset-title">Цвет</div></legend>
+                  <ul class="order-form__list order-form__list--color">
+                    <li class="order-form__item">
+                      <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="white-color" name="white" value="white" checked>
+                      <label class="order-form__input-label order-form__input-label--color" for="white-color">Белый</label>
+                    </li>
+                    <li class="order-form__item">
+                      <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="gray-color" name="gray" value="gray" checked>
+                      <label class="order-form__input-label order-form__input-label--color" for="gray-color">Серый</label>
+                    </li>
+                    <li class="order-form__item">
+                      <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="tiffany-color" name="tiffany" value="tiffany">
+                      <label class="order-form__input-label order-form__input-label--color" for="tiffany-color">«Тиффани»</label>
+                    </li>
+                    <li class="order-form__item">
+                      <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="black-color" name="black" value="black">
+                      <label class="order-form__input-label order-form__input-label--color" for="black-color">Черный</label>
+                    </li>
+                    <li class="order-form__item">
+                      <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="pink-color" name="pink" value="pink">
+                      <label class="order-form__input-label order-form__input-label--color" for="pink-color">Розовый</label>
+                    </li>
+                    <li class="order-form__item">
+                      <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="orange-color" name="orange" value="orange">
+                      <label class="order-form__input-label order-form__input-label--color" for="orange-color">Оранжевый</label>
+                    </li>
+                  </ul>
+                </div>
               </fieldset>
-              <fieldset class="order-form__fieldset">
-                <legend><div class="order-form__fieldset-title">Фио</div></legend>
-                <ul class="order-form__list">
-                  <li class="order-form__item order-form__item--border">
-                    <label class="order-form__input-label order-form__input-label--personal" for="name-input">Имя:</label>
-                    <input class="order-form__input order-form__input--text" type="text" id="name-input" name="user-name" placeholder="Введите ваше имя*">
-                  </li>
-                  <li class="order-form__item order-form__item--border">
-                    <label class="order-form__input-label order-form__input-label--personal" for="surname-input">Фамилия:</label>
-                    <input class="order-form__input order-form__input--text" type="text" id="surname-input" name="user-surname" placeholder="Укажите фамилию*">
-                  </li>
-                  <li class="order-form__item order-form__item--border">
-                    <label class="order-form__input-label order-form__input-label--personal" for="patronymic-input">Отчество:</label>
-                    <input class="order-form__input order-form__input--text" type="text" id="patronymic-input" name="user-patronymic" placeholder="Отчество, если желаете">
-                  </li>
-                </ul>
-              </fieldset>
-              <fieldset class="order-form__fieldset order-form__fieldset--contacts">
-                <legend><div class="order-form__fieldset-title">Тел</div></legend>
-                <div class="order-form__list">
-                  <div class="order-form__item order-form__item--border order-form__item--tel">
-                    <label class="visually-hidden" for="telephone-input">Ваш номер телефона:</label>
-                    <input class="order-form__input order-form__input--tel order-form__input--text" type="tel" id="telephone-input" name="user-telephone" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
-                  </div>
+              <fieldset class="order-form__fieldset order-form__fieldset--data">
+                <div class="order-form__fieldset-container">
+                  <legend><div class="order-form__fieldset-title">Фио</div></legend>
+                  <ul class="order-form__list">
+                    <li class="order-form__item order-form__item--border">
+                      <label class="order-form__input-label order-form__input-label--personal" for="name-input">Имя:</label>
+                      <input class="order-form__input order-form__input--text" type="text" id="name-input" name="user-name" placeholder="Введите ваше имя*">
+                    </li>
+                    <li class="order-form__item order-form__item--border">
+                      <label class="order-form__input-label order-form__input-label--personal" for="surname-input">Фамилия:</label>
+                      <input class="order-form__input order-form__input--text" type="text" id="surname-input" name="user-surname" placeholder="Укажите фамилию*">
+                    </li>
+                    <li class="order-form__item order-form__item--border">
+                      <label class="order-form__input-label order-form__input-label--personal" for="patronymic-input">Отчество:</label>
+                      <input class="order-form__input order-form__input--text" type="text" id="patronymic-input" name="user-patronymic" placeholder="Отчество, если желаете">
+                    </li>
+                  </ul>
                 </div>
               </fieldset>
               <fieldset class="order-form__fieldset order-form__fieldset--contacts">
-                <legend><div class="order-form__fieldset-title">E-mail</div></legend>
-                <div class="order-form__list">
-                  <div class="order-form__item order-form__item--border order-form__item--mail">
-                    <label class="visually-hidden" for="email-input">Ваш электронный адрес:</label>
-                    <input class="order-form__input order-form__input--text" type="email" id="email-input" name="user-email" placeholder="Ваш Email*">
+                <div class="order-form__fieldset-container">
+                  <legend><div class="order-form__fieldset-title">Тел</div></legend>
+                  <div class="order-form__list order-form__list--contacts">
+                    <div class="order-form__item order-form__item--border order-form__item--tel">
+                      <label class="visually-hidden" for="telephone-input">Ваш номер телефона:</label>
+                      <input class="order-form__input order-form__input--tel order-form__input--text" type="tel" id="telephone-input" name="user-telephone" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="order-form__fieldset order-form__fieldset--contacts order-form__fieldset--email">
+                <div class="order-form__fieldset-container">
+                  <legend><div class="order-form__fieldset-title">E-mail</div></legend>
+                  <div class="order-form__list order-form__list--contacts">
+                    <div class="order-form__item order-form__item--border order-form__item--mail">
+                      <label class="visually-hidden" for="email-input">Ваш электронный адрес:</label>
+                      <input class="order-form__input order-form__input--email order-form__input--text" type="email" id="email-input" name="user-email" placeholder="Ваш Email*">
+                    </div>
                   </div>
                 </div>
               </fieldset>
               <fieldset class="order-form__fieldset order-form__fieldset--extra">
-                <legend><div class="order-form__fieldset-title">Доп</div></legend>
-                <div class="order-form__list">
-                  <div class="order-form__item">
-                    <label class="visually-hidden" for="comments-input">Ваши пожелания:</label>
-                    <textarea class="order-form__input order-form__input--wishes order-form__input--text" id="comments-input" name="user-comments" rows="6" wrap="soft" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+                <div class="order-form__fieldset-container">
+                  <legend><div class="order-form__fieldset-title">Доп</div></legend>
+                    <div class="order-form__list">
+                      <div class="order-form__item order-form__item--extra">
+                        <label class="visually-hidden" for="comments-input">Ваши пожелания:</label>
+                        <textarea class="order-form__input order-form__input--wishes order-form__input--text" id="comments-input" name="user-comments" rows="6" wrap="soft" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+                      </div>
+                    </div>
                   </div>
-                </div>
               </fieldset>
-              <div class="order-form__note">
-                <span class="order-form__text-note">*Поля обязательны для заполнения</span>
+              <div class="order-form__footer">
+                <div class="order-form__note">
+                  <span class="order-form__text-note">*Поля обязательны для заполнения</span>
+                </div>
+                <button class="order-form__button button button--font-smaller button--line-smaller" type="submit">Отправить заказ</button>
               </div>
-              <button class="order-form__button button button--font-smaller button--line-smaller" type="submit">Отправить заказ</button>
             </form>
           </div>
         </section>
