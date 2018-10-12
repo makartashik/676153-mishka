@@ -70,3 +70,41 @@
     font-size: $tablet-medium-font-size;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .production__container {
+    position: relative;
+    width: 1050px;
+    padding-left: 682px;
+    padding-top: 40px;
+    padding-bottom: 17px;
+    margin-bottom: 102px;
+  }
+
+  .production__header {
+    padding-left: 0;
+    padding-top: 51px;
+    order: 0;
+  }
+
+  .production__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .production__text {
+    padding: 5px 0;
+    padding-left: 76px;
+  }
+
+  .production__title {
+    padding-right: 30px;
+  }
+
+  .production__button {
+    width: 229px;
+    margin-left: 79px;
+    margin-top: 28px;
+  }
+}

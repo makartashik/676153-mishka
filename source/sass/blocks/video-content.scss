@@ -31,3 +31,10 @@
     height: 455px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .video-content__image {
+    width: 682px;
+    height: 453px;
+  }
+}
