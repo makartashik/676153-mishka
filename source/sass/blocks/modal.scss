@@ -23,3 +23,21 @@
   color: $title-color;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .modal {
+    width: 565px;
+  }
+
+  .modal__container {
+    width: 465px;
+  }
+
+  .modal__title {
+    width: 380px;
+    margin-left: 45px;
+    font-size: 30px;
+    line-height: 57px;
+    outline: 1px solid green;
+  }
+}

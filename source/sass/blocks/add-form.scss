@@ -3,6 +3,7 @@
   padding: 0;
   padding-top: 22px;
   border: none;
+  outline: 1px solid green;
 }
 
 .add-form__legend {
@@ -69,4 +70,32 @@
 
 .add-form__button {
   margin-top: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .add-form__fieldset {
+    width: 350px;
+    margin-left: 58px;
+  }
+
+  .add-form__legend {
+    padding-top: 2px;
+    font-size: $medium-font-size;
+    line-height: $body-line-height;
+  }
+
+  .add-form__option {
+    width: 111px;
+  }
+
+  .add-form__input + .add-form__input-label::before {
+    width: 111px;
+    height: 52px;
+  }
+
+  .add-form__button {
+    width: 350px;
+    margin-left: 58px;
+    margin-top: 11px;
+  }
 }
