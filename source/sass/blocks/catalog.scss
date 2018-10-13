@@ -1,4 +1,6 @@
 .catalog {
+  width: 320px;
+  margin: 0 auto;
   outline: 1px solid blue;
 }
 
@@ -16,6 +18,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .catalog {
+    width: 768px;
+  }
+
   .catalog__container {
     padding-top: 83px;
     padding-bottom: 51px;
@@ -27,6 +33,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .catalog {
+    width: 1150px;
+  }
+
   .catalog__container {
     width: 1050px;
     padding-top: 127px;

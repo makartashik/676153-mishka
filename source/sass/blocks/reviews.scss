@@ -1,4 +1,6 @@
 .reviews {
+  width: 320px;
+  margin: 0 auto;
   outline: 1px solid blue;
 }
 
@@ -27,6 +29,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .reviews {
+    width: 768px;
+  }
+
   .reviews__container {
     display: flex;
     flex-direction: row;
@@ -78,6 +84,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .reviews {
+    width: 1150px;
+  }
+
   .reviews__container {
     width: 875px;
     padding-left: 225px;

@@ -2,8 +2,16 @@
   outline: 1px solid blue;
 }
 
+.order-section__container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .order-section__text {
-  margin: 0;
+  width: 260px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 23px;
   font-size: $note-font-size;
   line-height: $big-line-height;
@@ -16,17 +24,16 @@
 
 @media (min-width: $tablet-width) {
   .order-section__container {
-    width: 768px;
     padding-top: 55px;
-    padding-left: 0;
-    padding-right: 0;
   }
 
   .order-section__text {
-    margin-left: 50px;
+    width: 631px;
     padding-right: 50px;
+    padding-left: 16px;
     font-size: $medium-font-size;
     line-height: $body-line-height;
+    transform: none;
   }
 
   .order-section__form {
@@ -38,14 +45,14 @@
 
 @media (min-width: $desktop-width) {
   .order-section__container {
-    width: 1150px;
     padding-top: 98px;
   }
 
   .order-section__text {
     width: 700px;
     padding-right: 20px;
-    margin-left: 225px;
+    padding-left: 16px;
+    transform: none;
     outline: 1px solid blue;
   }
 }

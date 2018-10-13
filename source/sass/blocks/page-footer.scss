@@ -3,6 +3,13 @@
   outline: 1px solid blue;
 }
 
+.page-footer-container {
+  width: 260px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .page-footer__logo {
   display: none;
 }
@@ -21,9 +28,10 @@
 }
 
 @media (min-width: $tablet-width) {
-  .page-footer {
+  .page-footer-container {
     display: flex;
     justify-content: space-between;
+    width: 668px;
     padding: 50px 50px 45px;
   }
 
@@ -44,5 +52,11 @@
     padding-top: 7px;
     padding-bottom: 0;
     outline: 1px solid green;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer-container {
+    width: 1050px;
   }
 }

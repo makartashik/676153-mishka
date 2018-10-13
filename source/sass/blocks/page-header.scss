@@ -1,8 +1,12 @@
 .page-header {
+  width: 320px;
+  margin: 0 auto;
   outline: 1px solid orange;
 }
 
 .page-header__container {
+  width: 260px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -48,6 +52,7 @@
   .page-header {
     position: relative;
     display: flex;
+    width: 668px;
     padding: 0 50px;
     flex-wrap: wrap;
     z-index: 2;
@@ -82,6 +87,7 @@
 
 @media (min-width: $desktop-width) {
   .page-header {
+    width: 1050px;
     justify-content: space-between;
   }
 

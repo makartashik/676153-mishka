@@ -1,16 +1,3 @@
 .page-wrap {
   margin: 0 auto;
-  width: 320px;
-}
-
-@media (min-width: $tablet-width) {
-  .page-wrap {
-    width: 768px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .page-wrap {
-    width: 1150px;
-  }
 }
