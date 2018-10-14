@@ -1,8 +1,44 @@
 .advantages-section {
+  width: 320px;
+  margin: 0 auto;
   outline: 1px solid blue;
 }
 
 .advantages-section__container {
   padding-top: 28px;
   padding-bottom: 25px;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages-section {
+    width: 768px;
+  }
+
+  .advantages-section__container {
+    padding-top: 49px;
+    padding-bottom: 71px;
+  }
+
+  .advantages-section__content {
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid pink;
+  }
+
+  .advantages-section__list {
+    width: 334px;
+    outline: 1px solid black;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages-section {
+    width: 1150px;
+  }
+
+  .advantages-section__container {
+    padding-top: 60px;
+    padding-left: 225px;
+    padding-bottom: 76px;
+  }
 }

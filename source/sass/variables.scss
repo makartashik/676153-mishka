@@ -1,3 +1,6 @@
+$tablet-width: 768px;
+$desktop-width: 1150px;
+
 $main-color: #444444;
 $main-clear-color: rgba(68, 68, 68, 0.3);
 $main-transparent-color: rgba(68, 68, 68, 0.1);
@@ -27,12 +30,17 @@ $bold-font-weight: 700;
 $note-font-size: 13px;
 $small-font-size: 14px;
 $medium-font-size: 17px;
+$tablet-medium-font-size: 20px;
 $button-font-size: 18px;
 $big-font-size: 19px;
 $title-font-size: 25px;
 $banner-font-size: 27px;
+$tablet-title-font-size: 43px;
 
 $least-line-height: 16px;
+$tablet-least-line-height: 17px;
 $small-line-height: 18px;
 $medium-line-height: 20px;
+$tablet-medium-line-height: 22px;
 $big-line-height: 24px;
+$tablet-big-line-height: 50px;

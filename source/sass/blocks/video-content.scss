@@ -24,3 +24,17 @@
     transform: scale(0.8) translate(-60%, -60%);
   }
 }
+
+@media (min-width: $tablet-width) {
+  .video-content__image {
+    width: 668px;
+    height: 455px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .video-content__image {
+    width: 682px;
+    height: 453px;
+  }
+}

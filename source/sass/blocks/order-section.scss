@@ -2,8 +2,16 @@
   outline: 1px solid blue;
 }
 
+.order-section__container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .order-section__text {
-  margin: 0;
+  width: 260px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 23px;
   font-size: $note-font-size;
   line-height: $big-line-height;
@@ -12,4 +20,39 @@
 .order-section__form {
   margin-top: 25px;
   padding-bottom: 54px;
+}
+
+@media (min-width: $tablet-width) {
+  .order-section__container {
+    padding-top: 55px;
+  }
+
+  .order-section__text {
+    width: 631px;
+    padding-right: 50px;
+    padding-left: 16px;
+    font-size: $medium-font-size;
+    line-height: $body-line-height;
+    transform: none;
+  }
+
+  .order-section__form {
+    padding-top: 9px;
+    padding-bottom: 50px;
+    outline: 1px solid black;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .order-section__container {
+    padding-top: 98px;
+  }
+
+  .order-section__text {
+    width: 700px;
+    padding-right: 20px;
+    padding-left: 16px;
+    transform: none;
+    outline: 1px solid blue;
+  }
 }

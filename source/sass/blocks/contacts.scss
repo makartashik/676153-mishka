@@ -1,6 +1,7 @@
 .contacts__item {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   margin-bottom: 30px;
 
   &:last-child {
@@ -27,5 +28,38 @@
     &:active {
       opacity: 0.3;
     }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid green;
+  }
+
+  .contacts__item {
+    width: 334px;
+    margin-bottom: 0;
+    font-size: $medium-font-size;
+    outline: 1px solid black;
+  }
+
+  .contacts__value {
+    margin-left: 24px;
+
+    &--width-smaller {
+      width: 230px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    flex-direction: column;
+  }
+
+  .contacts__item {
+    margin-bottom: 28px;
   }
 }

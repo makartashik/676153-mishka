@@ -23,3 +23,37 @@
   display: block;
   padding: 30px 0 30px 75px;
 }
+
+@media (min-width: $tablet-width) {
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 346px;
+    outline: 1px solid pink;
+  }
+
+  .user-list__link {
+    padding: 30px 0;
+  }
+
+  .user-list__search {
+    width: 84px;
+    font-size: 0;
+    outline: 1px solid red;
+  }
+
+  .user-list__basket {
+    padding-left: 80px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-list {
+    width: 349px;
+    order: 1;
+  }
+
+  .user-list__basket {
+    padding-left: 83px;
+  }
+}

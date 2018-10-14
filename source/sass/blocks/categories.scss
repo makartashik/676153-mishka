@@ -1,7 +1,26 @@
 .categories {
-  outline: 1px solid blue;
+  width: 320px;
+  margin: 0 auto;
+  outline: 1px solid black;
 }
 
 .categories__list {
   margin-top: -73px;
+}
+
+@media (min-width: $tablet-width) {
+  .categories {
+    width: 668px;
+    padding: 0 50px;
+  }
+
+  .categories__list {
+    margin-top: -124px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .categories {
+    width: 1050px;
+  }
 }

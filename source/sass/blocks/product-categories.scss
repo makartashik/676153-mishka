@@ -1,6 +1,7 @@
 .product-categories {
   @include ul-standard;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   font-family: $bold-font-family;
   font-size: $big-font-size;
@@ -45,5 +46,26 @@
 
   &:active {
     opacity: 0.3;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .product-categories {
+    flex-direction: row;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .product-categories__link {
+    width: 300px;
+    padding-left: 34px;
+    padding-top: 28px;
+    padding-bottom: 36px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-categories__link {
+    width: 491px;
   }
 }

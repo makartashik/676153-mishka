@@ -25,3 +25,32 @@
   font-size: $medium-font-size;
   line-height: $medium-line-height;
 }
+
+@media (min-width: $tablet-width) {
+  .advantages__item {
+    width: 250px;
+    padding-top: 62px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    outline: 1px solid green;
+
+    &--width-smaller {
+      width: 230px;
+    }
+
+    &--width-larger {
+      width: 300px;
+    }
+  }
+
+  .advantages__item-title {
+    font-size: $tablet-medium-font-size;
+    line-height: $tablet-medium-line-height;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages-section__list--right .advantages__item {
+    padding-left: 15px;
+  }
+}
