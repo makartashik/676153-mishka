@@ -37,15 +37,44 @@
   height: 20px;
   margin-left: auto;
   font-size: 0;
-  background-image: url("../img/icon-menu-close.svg");
   background-repeat: no-repeat;
   background-color: $white-color;
   border: none;
 }
 
+.page-header--opened .page-header__nav-toggle {
+  background-image: url("../img/icon-menu-close.svg");
+}
+
+.page-header--closed .page-header__nav-toggle {
+  background-image: url("../img/icon-menu-open.svg");
+}
+
 .page-header__note {
   display: none;
   line-height: $big-line-height;
+}
+
+@media (max-width: $mobile-width-only) {
+  .page-header--closed .site-list {
+    display: none;
+  }
+
+  .page-header--closed .user-list {
+    display: none;
+  }
+
+  .page-header--nojs .page-header__nav-toggle {
+    display: none;
+  }
+
+  .page-header--nojs .site-list {
+    display: block;
+  }
+
+  .page-header--nojs .user-list {
+    display: block;
+  }
 }
 
 @media (min-width: $tablet-width) {
