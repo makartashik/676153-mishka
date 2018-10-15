@@ -22,6 +22,11 @@
   padding-bottom: 14px;
   color: $white-color;
 
+  &:hover {
+    margin-top: -5px;
+    padding-bottom: 19px;
+  }
+
   &:active .product-categories__title {
     opacity: 0.3;
   }
@@ -92,7 +97,6 @@
     padding-right: 34px;
 
     &:hover {
-      margin-top: -5px;
       padding-bottom: 32px;
     }
 
