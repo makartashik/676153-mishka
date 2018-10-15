@@ -1,7 +1,6 @@
 .categories {
   width: 320px;
   margin: 0 auto;
-  outline: 1px solid black;
 }
 
 .categories__list {
@@ -17,12 +16,16 @@
   }
 
   .categories__list {
-    margin-top: -124px;
+    margin-top: -122px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .categories {
     width: 1050px;
+  }
+
+  .categories__list {
+    margin-top: -124px;
   }
 }
