@@ -1,17 +1,36 @@
 .page-footer {
   background-color: $page-back-color;
-  outline: 1px solid blue;
 }
 
 .page-footer-container {
+  position: relative;
   width: 260px;
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 80px;
+    left: 30px;
+    width: 260px;
+    height: 1px;
+    background-color: $social-border-color;
+  }
 }
 
 .page-footer__logo {
   display: none;
+
+  &:not(&--index):hover svg {
+    fill: $hover-extra-green-color;
+  }
+
+  &:not(&--index):active svg {
+    fill: $hover-extra-green-color;
+    opacity: 0.3;
+  }
 }
 
 .page-footer__social {
@@ -19,12 +38,11 @@
   margin-right: 30px;
   padding-top: 25px;
   padding-bottom: 18px;
-  border-bottom: 1px solid $social-border-color;
 }
 
 .page-footer__copyright {
-  padding-top: 20px;
-  padding-bottom: 22px;
+  padding-top: 3px;
+  padding-bottom: 5px;
 }
 
 @media (min-width: $tablet-width) {
@@ -33,11 +51,14 @@
     justify-content: space-between;
     width: 668px;
     padding: 50px 50px 45px;
+
+    &::before {
+      content: none;
+    }
   }
 
   .page-footer__logo {
     display: block;
-    outline: 1px solid green;
   }
 
   .page-footer__social {
@@ -45,13 +66,11 @@
     margin-right: 0;
     padding-top: 10px;
     padding-bottom: 0;
-    outline: 1px solid green;
   }
 
   .page-footer__copyright {
-    padding-top: 7px;
+    padding-top: 0;
     padding-bottom: 0;
-    outline: 1px solid green;
   }
 }
 
