@@ -1,7 +1,6 @@
 .popular-product {
   width: 320px;
   margin: 0 auto;
-  outline: 1px solid blue;
 }
 
 .popular-product__container {
@@ -57,8 +56,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-    outline: 1px solid pink;
+    margin-bottom: 46px;
   }
 
   .popular-product__caption {
@@ -70,20 +68,14 @@
   .popular-product__content {
     width: 284px;
     padding-right: 50px;
-    outline: 1px solid pink;
   }
 
   .popular-product__description {
     width: 284px;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 33px;
     font-size: $medium-font-size;
     line-height: $body-line-height;
-    outline: 1px solid green;
-  }
-
-  .popular-product__info {
-    outline: 1px solid green;
   }
 
   .popular-product__image {
@@ -92,12 +84,10 @@
     height: 404px;
     top: 144px;
     right: 50px;
-    outline: 1px solid green;
   }
 
   .popular-product__price-content {
     width: 284px;
-    outline: 1px solid green;
   }
 
   .popular-product__price {
@@ -106,7 +96,7 @@
   }
 
   .popular-product__button {
-    width: 100%;
+    width: 292px;
   }
 }
 
@@ -129,13 +119,11 @@
 
   .popular-product__title {
     padding-left: 30px;
-    outline: 1px solid green;
   }
 
   .popular-product__caption {
     padding-left: 21px;
     padding-top: 10px;
-    outline: 1px solid green;
   }
 
   .popular-product__content {
