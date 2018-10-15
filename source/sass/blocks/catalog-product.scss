@@ -2,6 +2,14 @@
   display: flex;
   flex-direction: column;
   border: 1px solid $gray-border-color;
+
+  &:hover {
+    box-shadow: 0 6px 10px 0 $gray-border-color;
+  }
+
+  &:active {
+    box-shadow: 0 3px 5px 0 $gray-border-color;
+  }
 }
 
 .catalog-product__image-link {
@@ -10,7 +18,7 @@
 }
 
 .catalog-product__description {
-  padding: 27px 28px 26px;
+  padding: 27px 28px 18px;
 }
 
 .catalog-product__title {
@@ -50,6 +58,7 @@
 
 .catalog-product__price {
   width: 103px;
+  padding-bottom: 3px;
   font-family: $bold-font-family;
   font-size: $body-font-size;
   line-height: $big-line-height;
@@ -58,8 +67,27 @@
 
 .catalog-product__add-to-basket {
   margin-left: auto;
+  padding-top: 5px;
   text-align: right;
   font-size: 0;
+
+  &:not(:hover) {
+    opacity: 0.2;
+  }
+
+  &:hover path {
+    fill: $main-green-color;
+  }
+
+  &:active path {
+    fill: $main-green-color;
+    opacity: 0.3;
+  }
+}
+
+.catalog-product__button {
+  padding-left: 5px;
+  padding-bottom: 5px;
 }
 
 @media (min-width: $tablet-width) {
@@ -82,14 +110,12 @@
     flex-direction: column;
     justify-content: space-between;
     width: 278px;
-    padding-bottom: 23px;
-    outline: 1px solid pink;
+    padding-bottom: 17px;
   }
 
   .catalog-product__title {
     width: 240px;
     font-size: $tablet-medium-font-size;
-    outline: 1px solid green;
   }
 
   .catalog-product__info {
@@ -97,21 +123,23 @@
     flex-direction: column;
     justify-content: flex-start;
     min-height: 120px;
-    outline: 1px solid black;
   }
 
   .catalog-product__options {
     font-size: $body-font-size;
-    outline: 1px solid green;
   }
 
   .catalog-product__cost {
     padding-top: 20px;
-    outline: 1px solid green;
   }
 
   .catalog-product__price {
+    padding-left: 3px;
     font-size: $medium-font-size;
+  }
+
+  .catalog-product__button {
+    padding-right: 3px;
   }
 }
 
@@ -140,5 +168,9 @@
 
   .catalog-product__info {
     min-height: 95px;
+  }
+
+  .catalog-product__price {
+    padding-left: 0;
   }
 }
