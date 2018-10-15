@@ -10,8 +10,10 @@
 
 @media (min-width: $tablet-width) {
   .categories {
+    position: relative;
     width: 668px;
     padding: 0 50px;
+    z-index: 2;
   }
 
   .categories__list {
