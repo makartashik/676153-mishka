@@ -8,7 +8,10 @@
   color: $title-color;
 }
 
-.extra-list__item {
+.extra-list__link {
+  display: block;
+  padding: 15px 0 30px 2px;
+
   &:hover {
     opacity: 0.6;
   }
@@ -18,18 +21,13 @@
   }
 }
 
-.extra-list__link {
-  display: block;
-  padding: 15px 0 30px 2px;
-}
-
 @media (min-width: $desktop-width) {
   .extra-list {
     display: flex;
     flex-wrap: wrap;
     width: 376px;
+    padding-left: 50px;
     order: 1;
-    outline: 1px solid pink;
   }
 
   .extra-list__link {

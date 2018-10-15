@@ -1,7 +1,7 @@
 .page-header {
   width: 320px;
   margin: 0 auto;
-  outline: 1px solid orange;
+  border-bottom: 1px solid $gray-border-color;
 }
 
 .page-header__container {
@@ -81,16 +81,17 @@
   .page-header {
     position: relative;
     display: flex;
-    width: 668px;
-    padding: 0 50px;
+    width: 768px;
     flex-wrap: wrap;
     z-index: 2;
+    border: none;
   }
 
   .page-header__container {
     width: 320px;
     padding: 22px 0;
-    outline: 1px solid pink;
+    padding-left: 50px;
+    border-bottom: 1px solid $gray-border-color;
   }
 
   .page-header__nav-toggle {
@@ -110,18 +111,17 @@
     padding: 16px 0;
     text-align: right;
     order: 2;
-    outline: 1px solid pink;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-header {
-    width: 1050px;
+    width: 1150px;
     justify-content: space-between;
   }
 
   .page-header__container {
-    width: 300px;
+    width: 326px;
     padding: 9px 0;
     order: 1;
   }
@@ -131,5 +131,9 @@
     height: 72px;
     margin-left: 50%;
     transform: translateX(-59%);
+  }
+
+  .page-header__note {
+    padding-right: 50px;
   }
 }
