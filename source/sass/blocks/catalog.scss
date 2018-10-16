@@ -1,7 +1,6 @@
 .catalog {
   width: 320px;
   margin: 0 auto;
-  outline: 1px solid blue;
 }
 
 .catalog__container {
@@ -10,7 +9,7 @@
 }
 
 .catalog__item {
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 
   &:last-child {
     margin-bottom: 0;
@@ -23,7 +22,7 @@
   }
 
   .catalog__container {
-    padding-top: 83px;
+    padding-top: 73px;
     padding-bottom: 51px;
   }
 
@@ -39,8 +38,8 @@
 
   .catalog__container {
     width: 1050px;
-    padding-top: 127px;
-    padding-bottom: 9px;
+    padding-top: 122px;
+    padding-bottom: 0;
   }
 
   .catalog__list {
