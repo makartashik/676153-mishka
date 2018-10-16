@@ -39,3 +39,10 @@
     padding-top: 8px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .copyright__link {
+    padding-bottom: 6px;
+    padding-top: 3px;
+  }
+}

@@ -9,7 +9,7 @@
   }
 
   &--contacts {
-    padding-top: 4px;
+    padding-top: 0;
   }
 
   &--extra {
@@ -49,11 +49,13 @@
   margin-top: 22px;
 
   &--contacts {
-    margin-top: 0;
+    margin-top: 4px;
   }
 }
 
 .order-form__item {
+  position: relative;
+
   &--border {
     border-bottom: 2px solid $title-color;
     margin-bottom: 14px;
@@ -73,6 +75,14 @@
 
   &--border:last-child {
     margin-bottom: 5px;
+  }
+
+  &:hover .order-form__input-icon {
+    fill: $extra-green-color;
+  }
+
+  &:active .order-form__input-icon {
+    fill: $extra-green-color;
   }
 }
 
@@ -190,7 +200,7 @@
   }
 
   &--wishes {
-    margin-top: 5px;
+    margin-top: 3px;
     padding-top: 11px;
     padding-left: 15px;
     padding-bottom: 18px;
@@ -204,6 +214,18 @@
     &:active {
       border-color: $extra-green-color;
     }
+  }
+}
+
+.order-form__input-icon {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  fill: $input-icon-color;
+
+  &--mail {
+    top: 11px;
+    right: 5px;
   }
 }
 
@@ -225,8 +247,6 @@
 
 @media (min-width: $tablet-width) {
   .order-form__fieldset {
-    outline: 1px dotted darkgreen;
-
     &--color {
       padding-top: 27px;
       padding-bottom: 27px;
@@ -245,7 +265,7 @@
     }
 
     &--email {
-      padding-top: 0;
+      padding-top: 2px;
       padding-bottom: 30px;
     }
   }
@@ -257,14 +277,12 @@
     width: 668px;
     padding-left: 50px;
     padding-right: 50px;
-    outline: 1px solid pink;
   }
 
   .order-form__fieldset-title {
     width: 165px;
     padding-top: 17px;
     margin-top: 22px;
-    outline: 1px solid green;
 
     &::after {
       content: none;
@@ -272,7 +290,7 @@
   }
 
   .order-form__fieldset--email .order-form__fieldset-title {
-    padding-top: 5px;
+    padding-top: 0;
   }
 
   .order-form__fieldset--extra .order-form__fieldset-title {
@@ -293,7 +311,6 @@
 
   .order-form__item {
     display: flex;
-    outline: 1px solid red;
 
     &--border {
       width: 500px;
@@ -312,7 +329,6 @@
     padding-left: 82px;
     font-size: $big-font-size;
     line-height: $small-line-height;
-    outline: 1px solid orange;
 
     &--personal {
       padding-right: 23px;
@@ -355,6 +371,18 @@
       padding-left: 18px;
       border-bottom: 2px solid $title-color;
 
+      &:hover {
+        border-color: $extra-green-color;
+      }
+
+      &:active {
+        border-color: $extra-green-color;
+      }
+
+      &:focus {
+        border-color: $extra-green-color;
+      }
+
       &::placeholder {
         font-size: 19px;
         line-height: 18px;
@@ -362,17 +390,27 @@
     }
 
     &--tel {
-      padding-top: 34px;
+      padding-top: 30px;
       background-color: $page-back-color;
     }
 
     &--email {
-      padding-top: 20px;
+      padding-top: 13px;
       background-color: $page-back-color;
     }
 
     &--wishes {
-      margin-top: 30px;
+      margin-top: 31px;
+    }
+  }
+
+  .order-form__input-icon {
+    top: 29px;
+    right: 22px;
+
+    &--mail {
+      top: 13px;
+      right: 20px;
     }
   }
 
@@ -384,14 +422,12 @@
     margin-top: 55px;
     padding-left: 50px;
     padding-right: 50px;
-    outline: 1px solid blue;
   }
 
   .order-form__note {
     padding-top: 10px;
     margin-bottom: 0;
     order: 1;
-    outline: 1px solid green;
   }
 
   .order-form__text-note {
@@ -410,6 +446,12 @@
 
   .order-form__fieldset-title {
     justify-content: center;
+
+    &--email {
+      width: 105px;
+      justify-content: flex-start;
+      padding-left: 60px;
+    }
   }
 
   .order-form__list {
@@ -431,6 +473,20 @@
 
     &--extra {
       width: 700px;
+    }
+
+    &--desktop-last {
+      margin-left: 5px;
+    }
+  }
+
+  .order-form__input-icon {
+    top: 29px;
+    right: 8px;
+
+    &--mail {
+      top: 11px;
+      right: 5px;
     }
   }
 
