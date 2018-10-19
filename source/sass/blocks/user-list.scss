@@ -31,23 +31,18 @@
   left: 32px;
   width: 18px;
   height: 18px;
+  fill: $svg-icon-color;
   opacity: 0.2;
 }
 
 .user-list__link:hover .user-list__icon {
+  fill: $main-green-color;
   opacity: 1;
 }
 
 .user-list__link:focus .user-list__icon {
+  fill: $main-green-color;
   opacity: 1;
-}
-
-.user-list__link:hover path {
-  fill: $main-green-color;
-}
-
-.user-list__link:focus path {
-  fill: $main-green-color;
 }
 
 @media (min-width: $tablet-width) {
@@ -80,11 +75,16 @@
 
 @media (min-width: $desktop-width) {
   .user-list {
-    width: 348px;
     order: 1;
+  }
 
-    &--basket {
-      padding-left: 83px;
+  .user-list__link {
+    &--search {
+      width: 81px;
     }
+  }
+
+  .user-list__icon {
+    left: 31px;
   }
 }

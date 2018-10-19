@@ -23,11 +23,11 @@
   width: 86px;
   height: 35px;
 
-  &:hover {
+  &:not(&--index):hover {
     opacity: 0.6;
   }
 
-  &:active {
+  &:not(&--index):active {
     opacity: 0.3;
   }
 }

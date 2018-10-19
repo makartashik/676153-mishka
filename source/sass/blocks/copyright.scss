@@ -1,3 +1,7 @@
+.copyright__link-icon {
+  fill: $main-green-color;
+}
+
 .copyright__link {
   display: flex;
   justify-content: center;
@@ -5,7 +9,7 @@
   padding-bottom: 19px;
   padding-top: 17px;
 
-  &:hover path {
+  &:hover .copyright__link-icon {
     fill: $hover-extra-green-color;
   }
 
