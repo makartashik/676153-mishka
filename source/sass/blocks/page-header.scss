@@ -105,6 +105,11 @@
     outline: 1px solid red;
   }
 
+  .page-header__logo-image {
+    width: 113px;
+    height: 46px;
+  }
+
   .page-header__note {
     display: block;
     width: 334px;
@@ -131,6 +136,11 @@
     height: 72px;
     margin-left: 50%;
     transform: translateX(-59%);
+  }
+
+  .page-header__logo-image {
+    width: 149px;
+    height: 72px;
   }
 
   .page-header__note {
