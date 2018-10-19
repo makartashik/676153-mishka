@@ -120,7 +120,11 @@
                   <td class="product-info__value">15 см</td>
                 </tr>
               </table>
-              <img class="popular-product__image" src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="Вязаные корзинки">
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/triple-set-desktop@1x.jpg, img/triple-set-desktop@2x.jpg">
+                <source media="(min-width: 768px)" srcset="img/triple-set-tablet@1x.jpg, img/triple-set-tablet@2x.jpg">
+                <img class="popular-product__image" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg" alt="Вязаные корзинки">
+              </picture>
               <div class="popular-product__price-content">
                 <span class="popular-product__price">Цена: 990 руб.</span>
                 <a class="popular-product__button button button--font-smaller button--open-modal" href="#">Заказать</a>
