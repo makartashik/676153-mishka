@@ -23,6 +23,11 @@
   padding-bottom: 42px;
 }
 
+.popular-product__image {
+  width: 260px;
+  height: 315px;
+}
+
 .popular-product__caption {
   margin-top: 5px;
   margin-bottom: 6px;
@@ -45,7 +50,7 @@
 
 .popular-product__price {
   display: block;
-  padding-top: 25px;
+  padding-top: 16px;
   padding-bottom: 25px;
   font-family: $bold-font-family;
   font-size: $medium-font-size;
@@ -111,6 +116,7 @@
 
   .popular-product__price {
     font-size: $tablet-medium-font-size;
+    padding-top: 25px;
     margin-bottom: 10px;
   }
 

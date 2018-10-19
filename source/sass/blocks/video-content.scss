@@ -25,6 +25,11 @@
   }
 }
 
+.video-content__image {
+  width: 260px;
+  height: 150px;
+}
+
 @media (min-width: $tablet-width) {
   .video-content__image {
     width: 668px;
@@ -35,6 +40,6 @@
 @media (min-width: $desktop-width) {
   .video-content__image {
     width: 682px;
-    height: 453px;
+    height: 455px;
   }
 }
