@@ -207,7 +207,7 @@
                     <div class="order-form__item order-form__item--border order-form__item--tel">
                       <label class="visually-hidden" for="telephone-input">Ваш номер телефона:</label>
                       <input class="order-form__input order-form__input--tel order-form__input--text" type="tel" id="telephone-input" name="user-telephone" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
-                      <svg class="order-form__input-icon" width="24" height="24">
+                      <svg class="order-form__input-icon" width="24" height="24" aria-hidden="true" role="presentation">
                         <use xlink:href="#icon-tel"></use>
                       </svg>
                     </div>
@@ -221,7 +221,7 @@
                     <div class="order-form__item order-form__item--border order-form__item--mail">
                       <label class="visually-hidden" for="email-input">Ваш электронный адрес:</label>
                       <input class="order-form__input order-form__input--email order-form__input--text" type="email" id="email-input" name="user-email" placeholder="Ваш Email*">
-                      <svg class="order-form__input-icon order-form__input-icon--mail" width="32" height="32">
+                      <svg class="order-form__input-icon order-form__input-icon--mail" width="32" height="32" aria-hidden="true" role="presentation">
                         <use xlink:href="#icon-mail"></use>
                       </svg>
                     </div>
@@ -254,7 +254,8 @@
       <footer class="page-footer">
         <div class="page-footer-container container">
           <a class="page-footer__logo" href="index.html">
-            <svg width="101" height="34">
+            <svg width="101" height="34" role="img">
+              <title>Логотип магазина «Mishka»</title>
               <use xlink:href="#icon-logo-footer"></use>
             </svg>
           </a>
@@ -289,7 +290,8 @@
           <div class="page-footer__copyright copyright">
             <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
               <b class="copyright__text">Разработано</b>
-              <svg class="copyright__link-icon" width="27" height="34">
+              <svg class="copyright__link-icon" width="27" height="34" role="img">
+                <title>HTMLAcademy</title>
                 <use xlink:href="#icon-htmlacademy"></use>
               </svg>
             </a>
