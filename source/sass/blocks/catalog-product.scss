@@ -80,11 +80,11 @@
     opacity: 0.2;
   }
 
-  &:hover path {
+  &:hover svg {
     fill: $main-green-color;
   }
 
-  &:active path {
+  &:active svg {
     fill: $main-green-color;
     opacity: 0.3;
   }

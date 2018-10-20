@@ -13,12 +13,16 @@
   }
 }
 
+.social__icon {
+  fill: "#231F20";
+}
+
 .social__link {
-  &:hover path {
+  &:hover .social__icon {
     fill: $hover-extra-green-color;
   }
 
-  &:active path {
+  &:active .social__icon {
     fill: $hover-extra-green-color;
     opacity: 0.3;
   }
