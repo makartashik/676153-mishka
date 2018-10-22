@@ -109,7 +109,7 @@
                     </li>
                     <li class="order-form__item order-form__item--desktop-last">
                       <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="tiffany-color" name="tiffany" value="tiffany">
-                      <label class="order-form__input-label order-form__input-label--color .order-form__input-label" for="tiffany-color">«Тиффани»</label>
+                      <label class="order-form__input-label order-form__input-label--color" for="tiffany-color">«Тиффани»</label>
                     </li>
                     <li class="order-form__item">
                       <input class="order-form__input order-form__input--checkbox visually-hidden" type="checkbox" id="black-color" name="black" value="black">
@@ -132,11 +132,11 @@
                   <ul class="order-form__list">
                     <li class="order-form__item order-form__item--border">
                       <label class="order-form__input-label order-form__input-label--personal" for="name-input">Имя:</label>
-                      <input class="order-form__input order-form__input--text" type="text" id="name-input" name="user-name" placeholder="Введите ваше имя*">
+                      <input class="order-form__input order-form__input--text" type="text" id="name-input" name="user-name" placeholder="Введите ваше имя*" required>
                     </li>
                     <li class="order-form__item order-form__item--border">
                       <label class="order-form__input-label order-form__input-label--personal" for="surname-input">Фамилия:</label>
-                      <input class="order-form__input order-form__input--text" type="text" id="surname-input" name="user-surname" placeholder="Укажите фамилию*">
+                      <input class="order-form__input order-form__input--text" type="text" id="surname-input" name="user-surname" placeholder="Укажите фамилию*" required>
                     </li>
                     <li class="order-form__item order-form__item--border">
                       <label class="order-form__input-label order-form__input-label--personal" for="patronymic-input">Отчество:</label>
@@ -151,7 +151,7 @@
                   <div class="order-form__list order-form__list--contacts">
                     <div class="order-form__item order-form__item--border order-form__item--tel">
                       <label class="visually-hidden" for="telephone-input">Ваш номер телефона:</label>
-                      <input class="order-form__input order-form__input--tel order-form__input--text" type="tel" id="telephone-input" name="user-telephone" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
+                      <input class="order-form__input order-form__input--tel order-form__input--text" type="tel" id="telephone-input" name="user-telephone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required>
                       <svg class="order-form__input-icon" width="24" height="24" aria-hidden="true" role="presentation">
                         <use xlink:href="#icon-phone"></use>
                       </svg>
@@ -165,7 +165,7 @@
                   <div class="order-form__list order-form__list--contacts">
                     <div class="order-form__item order-form__item--border order-form__item--mail">
                       <label class="visually-hidden" for="email-input">Ваш электронный адрес:</label>
-                      <input class="order-form__input order-form__input--email order-form__input--text" type="email" id="email-input" name="user-email" placeholder="Ваш Email*">
+                      <input class="order-form__input order-form__input--email order-form__input--text" type="email" id="email-input" name="user-email" placeholder="Ваш Email*" required>
                       <svg class="order-form__input-icon order-form__input-icon--mail" width="32" height="32" aria-hidden="true" role="presentation">
                         <use xlink:href="#icon-mail"></use>
                       </svg>
