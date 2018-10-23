@@ -165,7 +165,6 @@
   .catalog-product {
     flex-direction: column;
     width: 314px;
-    max-height: 660px;
   }
 
   .catalog-product__image-link {
@@ -180,12 +179,17 @@
 
   .catalog-product__description {
     width: 260px;
+    height: 100%;
     padding-top: 24px;
-    padding-bottom: 23px;
+    padding-bottom: 15px;
   }
 
   .catalog-product__info {
-    min-height: 95px;
+    min-height: 90px;
+  }
+
+  .catalog-product__cost {
+    padding-top: 13px;
   }
 
   .catalog-product__price {
